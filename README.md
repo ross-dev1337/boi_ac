@@ -37,4 +37,4 @@ Use it responsibly and respect the game's terms of service, server rules, and ot
 No license has been specified yet. Unless a license is added to this repository, all rights remain with the copyright holder.
 
 ## 📸 Screenshots
-<img width="1862" height="994" alt="image" src="https://github.com/user-attachments/assets/04c3e36c-ef85-42a8-887b-5a19a97a79c1" />
+<img width="1862" height="994" alt="image" src="https://github.com/user-attachments/assets/04c3e36c-ef85-42a8-887b-5a19a97a79c1" /> 
