@@ -1,5 +1,5 @@
 #include "dll_main.h"
-
+ 
 void hooks::init_boi() {
     AllocConsole();
     SetConsoleTitle("Assualt Cube - BOI");
