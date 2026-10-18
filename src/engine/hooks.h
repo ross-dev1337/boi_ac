@@ -1,5 +1,5 @@
 #pragma once
-
+ 
 namespace hooks {
     void init_boi();
     void toggle_input();

@@ -1,5 +1,5 @@
 #include "dll_main.h"
-
+ 
 extern IMGUI_IMPL_API LRESULT ImGui_ImplWin32_WndProcHandler(HWND hwnd, UINT msg, WPARAM wparma, LPARAM lparam);
 
 namespace stub {
@@ -36,7 +36,7 @@ bool hooks::opengl::wgl_swap_buffers(UINT p1) {
     if (!globals::run) {
         ImGui::CreateContext();
         ImGuiIO& io = ImGui::GetIO();
-        io.Fonts->AddFontFromFileTTF("C:\\Development\\cheats\\PC\\Learn Game Hacking\\cube_new\\boi_ac\\fonts\\DroidSans.ttf", 18.f);
+        io.Fonts->AddFontFromFileTTF("PUT YOUR FONT PATH HERE", 18.f);
 
         ImGui_ImplWin32_Init(globals::window);
         ImGui_ImplOpenGL2_Init();
