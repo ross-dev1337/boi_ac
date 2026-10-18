@@ -1,5 +1,5 @@
 #include "dll_main.h"
-
+  
 void visuals::opengl::draw_rect(float x, float y, float width, float height, ImVec4 color) {
     ImGui::GetOverlayDrawList()->AddRectFilled(ImVec2(x, y), ImVec2(x + width, y + height), ImGui::GetColorU32(ImVec4(0.f, 0.f, 0.f, .5f)));
     // outline
