@@ -1,5 +1,5 @@
 #include "dll_main.h"
-
+ 
 structs::player* aimbot::closest_client() {
     const auto local = structs::local_player;
     if (local == nullptr || structs::ent == nullptr)

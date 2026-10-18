@@ -1,5 +1,5 @@
 #pragma once 
-
+ 
 namespace aimbot {
     structs::player* closest_client(); 
     void vec_to_angles(const math::vec3& vec, math::vec3& angles);
