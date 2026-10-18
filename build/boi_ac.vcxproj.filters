@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\build\CMakeFiles\boi_ac.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\dll_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\engine\aimbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\engine\functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\engine\hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\engine\menu_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\engine\visuals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\imgui\imgui_impl_opengl2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\minhook\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\minhook\hde\hde32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\minhook\hde\hde64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\minhook\hook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\src\minhook\trampoline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\build\CMakeFiles\boi_ac.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\build\CMakeFiles\boi_ac.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\build\CMakeFiles\boi_ac.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\build\CMakeFiles\boi_ac.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{E6B96E5A-42D8-33B7-8031-EF9A899FC220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9FDAE378-831D-3CA1-B4AF-06C200BF11FE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

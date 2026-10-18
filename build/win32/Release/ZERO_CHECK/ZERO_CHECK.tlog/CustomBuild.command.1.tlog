@@ -1,0 +1,10 @@
+^C:\DEVELOPMENT\CHEATS\PC\LEARN GAME HACKING\CUBE_NEW\BOI_AC\BUILD\CMAKEFILES\7CF4E1EAD93ABDE6EE0050E58D08FA08\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Development/cheats/PC/Learn Game Hacking/cube_new/boi_ac" "-BC:/Development/cheats/PC/Learn Game Hacking/cube_new/boi_ac/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Development/cheats/PC/Learn Game Hacking/cube_new/boi_ac/build/boi_ac.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

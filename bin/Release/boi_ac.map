@@ -1,0 +1,1248 @@
+ boi_ac
+
+ Timestamp is 6ad4e6c3 (Sun Oct 18 16:33:23 2026)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000311a0H .text$mn                CODE
+ 0001:000311a0 00000380H .text$x                 CODE
+ 0001:00031520 00000000H .text$yd                CODE
+ 0002:00000000 00000284H .idata$5                DATA
+ 0002:00000284 00000008H .00cfg                  DATA
+ 0002:0000028c 00000004H .CRT$XCA                DATA
+ 0002:00000290 00000004H .CRT$XCZ                DATA
+ 0002:00000294 00000004H .CRT$XIA                DATA
+ 0002:00000298 00000004H .CRT$XIZ                DATA
+ 0002:0000029c 00000004H .CRT$XLA                DATA
+ 0002:000002a0 00000004H .CRT$XLZ                DATA
+ 0002:000002a4 00000004H .CRT$XPA                DATA
+ 0002:000002a8 00000004H .CRT$XPZ                DATA
+ 0002:000002ac 00000004H .CRT$XTA                DATA
+ 0002:000002b0 00000010H .CRT$XTZ                DATA
+ 0002:000002b4 00000000H .gfids$y                DATA
+ 0002:000002c0 00004b40H .rdata                  DATA
+ 0002:00004e00 00000000H .rdata$CastGuardVftablesA DATA
+ 0002:00004e00 00000000H .rdata$CastGuardVftablesC DATA
+ 0002:00004e00 00000018H .rdata$T                DATA
+ 0002:00004e18 00000044H .rdata$sxdata           DATA
+ 0002:00004e5c 0000008cH .rdata$voltmd           DATA
+ 0002:00004ee8 000002b0H .rdata$zzzdbg           DATA
+ 0002:00005198 00000004H .rtc$IAA                DATA
+ 0002:0000519c 00000004H .rtc$IZZ                DATA
+ 0002:000051a0 00000004H .rtc$TAA                DATA
+ 0002:000051a4 00000004H .rtc$TZZ                DATA
+ 0002:000051a8 00000008H .tls                    DATA
+ 0002:000051b0 00000208H .tls$                   DATA
+ 0002:000053b8 00000008H .tls$ZZZ                DATA
+ 0002:000053c0 000006c4H .xdata$x                DATA
+ 0002:00005a84 00000000H .edata                  DATA
+ 0002:00005a84 000000f0H .idata$2                DATA
+ 0002:00005b74 00000014H .idata$3                DATA
+ 0002:00005b88 00000284H .idata$4                DATA
+ 0002:00005e0c 00000b14H .idata$6                DATA
+ 0003:00000000 000004d0H .data                   DATA
+ 0003:000004d0 00000420H .bss                    DATA
+ 0004:00000000 00000060H .rsrc$01                DATA
+ 0004:00000060 00000180H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table  00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table_size 00000000     <absolute>
+ 0000:00000000       ___arm64x_native_entrypoint 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata_count 00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_check_icall_a64n_fptr 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_count     00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_table     00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_delayload_iat 00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_delayload_iat_copy 00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat_copy 00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___hybrid_image_info_bitfield 00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points 00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points_count 00000000     <absolute>
+ 0000:00000011       ___safe_se_handler_count   00000011     <absolute>
+ 0000:0000002c       __tls_array                0000002c     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _DllMain@12                10001000 f   dll_main.obj
+ 0001:00000080       ?do_aimbot@aimbot@@YAXXZ   10001080 f   aimbot.obj
+ 0001:00000370       _sqrtf                     10001370 f i aimbot.obj
+ 0001:000003a0       ?va@functions@@YAPBDPBDZZ  100013a0 f   functions.obj
+ 0001:000003f0       ___local_stdio_printf_options 100013f0 f i functions.obj
+ 0001:00000400       ?wnd_proc_hook@opengl@hooks@@YAJPAUHWND__@@IIJ@Z 10001400 f   hooks.obj
+ 0001:00000490       ?wgl_swap_buffers@opengl@hooks@@YA_NI@Z 10001490 f   hooks.obj
+ 0001:00000990       ?load_hooks@hooks@@YAXXZ   10001990 f   hooks.obj
+ 0001:00000c50       ?unload_hooks@hooks@@YAXXZ 10001c50 f   hooks.obj
+ 0001:00000fd0       _fprintf                   10001fd0 f i hooks.obj
+ 0001:00001000       ?draw_ui@menu_interface@@YAXXZ 10002000 f   menu_interface.obj
+ 0001:00001410       ?draw_rect@opengl@visuals@@YAXMMMMUImVec4@@@Z 10002410 f   visuals.obj
+ 0001:00001660       ?draw_text_shader@opengl@visuals@@YAXPBDMMUImVec4@@1W4align@globals@@@Z 10002660 f   visuals.obj
+ 0001:000017a0       ?draw_line@opengl@visuals@@YAXMMMMUImVec4@@M@Z 100027a0 f   visuals.obj
+ 0001:00001990       ?draw_esp_line@opengl@visuals@@YAXUvec3@math@@MMMMMMUImVec4@@@Z 10002990 f   visuals.obj
+ 0001:00001bc0       ?draw_3d_box@opengl@visuals@@YAXUvec3@math@@MMUImVec4@@@Z 10002bc0 f   visuals.obj
+ 0001:00001f80       ?draw_visuals@opengl@visuals@@YAXXZ 10002f80 f   visuals.obj
+ 0001:00002ed0       ??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z 10003ed0 f i imgui.obj
+ 0001:00003d30       ??1ImGuiIO@@QAE@XZ         10004d30 f i imgui.obj
+ 0001:00003d80       ??1?$ImChunkStream@UImGuiWindowSettings@@@@QAE@XZ 10004d80 f i imgui.obj
+ 0001:00003d80       ??1ImGuiStorage@@QAE@XZ    10004d80 f i imgui.obj
+ 0001:00003d80       ??1ImGuiTextBuffer@@QAE@XZ 10004d80 f i imgui.obj
+ 0001:00003dd0       ??1ImDrawDataBuilder@@QAE@XZ 10004dd0 f i imgui.obj
+ 0001:00003e10       ??1ImGuiInputTextState@@QAE@XZ 10004e10 f i imgui.obj
+ 0001:00003ea0       ??0ImGuiWindowTempData@@QAE@XZ 10004ea0 f i imgui.obj
+ 0001:00004120       ?MenuBarRect@ImGuiWindow@@QBE?AUImRect@@XZ 10005120 f i imgui.obj
+ 0001:00004220       ??0ImGuiStyle@@QAE@XZ      10005220 f   imgui.obj
+ 0001:000043b0       ??0ImGuiIO@@QAE@XZ         100053b0 f   imgui.obj
+ 0001:000046a0       ?AddInputCharacterUTF16@ImGuiIO@@QAEXG@Z 100056a0 f   imgui.obj
+ 0001:00004800       ?ImFormatString@@YAHPADIPBDZZ 10005800 f   imgui.obj
+ 0001:00004840       ?ImHashStr@@YAIPBDII@Z     10005840 f   imgui.obj
+ 0001:000048e0       ?ImFileOpen@@YAPAU_iobuf@@PBD0@Z 100058e0 f   imgui.obj
+ 0001:000049d0       ?ImFileLoadToMemory@@YAPAXPBD0PAIH@Z 100059d0 f   imgui.obj
+ 0001:00004ae0       ?ImTextCharFromUtf8@@YAHPAIPBD1@Z 10005ae0 f   imgui.obj
+ 0001:00004c80       ?ImTextStrToUtf8@@YAHPADHPBG1@Z 10005c80 f   imgui.obj
+ 0001:00004d50       ?ImTextCountUtf8BytesFromStr@@YAHPBG0@Z 10005d50 f   imgui.obj
+ 0001:00004da0       ?appendf@ImGuiTextBuffer@@QAAXPBDZZ 10005da0 f   imgui.obj
+ 0001:00004dc0       ?appendfv@ImGuiTextBuffer@@QAEXPBDPAD@Z 10005dc0 f   imgui.obj
+ 0001:00004e80       ?GetColorU32@ImGui@@YAIABUImVec4@@@Z 10005e80 f   imgui.obj
+ 0001:00004f50       ?PopStyleVar@ImGui@@YAXH@Z 10005f50 f   imgui.obj
+ 0001:00004fd0       ?RenderText@ImGui@@YAXUImVec2@@PBD1_N@Z 10005fd0 f   imgui.obj
+ 0001:000051c0       ?RenderTextWrapped@ImGui@@YAXUImVec2@@PBD1M@Z 100061c0 f   imgui.obj
+ 0001:00005380       ?RenderTextClippedEx@ImGui@@YAXPAUImDrawList@@ABUImVec2@@1PBD2PBU3@1PBUImRect@@@Z 10006380 f   imgui.obj
+ 0001:00005770       ?RenderFrame@ImGui@@YAXUImVec2@@0I_NM@Z 10006770 f   imgui.obj
+ 0001:00005b00       ?RenderFrameBorder@ImGui@@YAXUImVec2@@0M@Z 10006b00 f   imgui.obj
+ 0001:00005e60       ?RenderNavHighlight@ImGui@@YAXABUImRect@@IH@Z 10006e60 f   imgui.obj
+ 0001:00006360       ??0ImGuiWindow@@QAE@PAUImGuiContext@@PBD@Z 10007360 f   imgui.obj
+ 0001:00006a10       ??1ImGuiWindowTempData@@QAE@XZ 10007a10 f i imgui.obj
+ 0001:00006af0       ??1ImGuiWindow@@QAE@XZ     10007af0 f   imgui.obj
+ 0001:00006c60       ?GcCompactTransientWindowBuffers@ImGui@@YAXPAUImGuiWindow@@@Z 10007c60 f   imgui.obj
+ 0001:00006e10       ?SetActiveID@ImGui@@YAXIPAUImGuiWindow@@@Z 10007e10 f   imgui.obj
+ 0001:00006ed0       ?ClearActiveID@ImGui@@YAXXZ 10007ed0 f   imgui.obj
+ 0001:00006f50       ?IsItemHovered@ImGui@@YA_NH@Z 10007f50 f   imgui.obj
+ 0001:00006ff0       ?ItemHoverable@ImGui@@YA_NABUImRect@@I@Z 10007ff0 f   imgui.obj
+ 0001:00007260       ?FocusableItemRegister@ImGui@@YA_NPAUImGuiWindow@@I@Z 10008260 f   imgui.obj
+ 0001:00007320       ?UpdateMouseMovingWindowNewFrame@ImGui@@YAXXZ 10008320 f   imgui.obj
+ 0001:00007510       ?UpdateMouseMovingWindowEndFrame@ImGui@@YAXXZ 10008510 f   imgui.obj
+ 0001:00008040       ?UpdateHoveredWindowAndCaptureFlags@ImGui@@YAXXZ 10009040 f   imgui.obj
+ 0001:00008210       ?NewFrame@ImGui@@YAXXZ     10009210 f   imgui.obj
+ 0001:00008ed0       ?Initialize@ImGui@@YAXPAUImGuiContext@@@Z 10009ed0 f   imgui.obj
+ 0001:00009020       ?Shutdown@ImGui@@YAXPAUImGuiContext@@@Z 1000a020 f   imgui.obj
+ 0001:000098f0       ?PushClipRect@ImGui@@YAXABUImVec2@@0_N@Z 1000a8f0 f   imgui.obj
+ 0001:00009a30       ?EndFrame@ImGui@@YAXXZ     1000aa30 f   imgui.obj
+ 0001:00009cf0       ?Render@ImGui@@YAXXZ       1000acf0 f   imgui.obj
+ 0001:0000a240       ?IsKeyPressed@ImGui@@YA_NH_N@Z 1000b240 f   imgui.obj
+ 0001:0000a300       ?BeginChildEx@ImGui@@YA_NPBDIABUImVec2@@_NH@Z 1000b300 f   imgui.obj
+ 0001:0000a4b0       ?EndChild@ImGui@@YAXXZ     1000b4b0 f   imgui.obj
+ 0001:0000a670       ?FindWindowByName@ImGui@@YAPAUImGuiWindow@@PBD@Z 1000b670 f   imgui.obj
+ 0001:0000d180       ?Begin@ImGui@@YA_NPBDPA_NH@Z 1000e180 f   imgui.obj
+ 0001:0000f790       ?End@ImGui@@YAXXZ          10010790 f   imgui.obj
+ 0001:0000f8f0       ?FocusWindow@ImGui@@YAXPAUImGuiWindow@@@Z 100108f0 f   imgui.obj
+ 0001:0000fa90       ?FocusTopMostWindowUnderOne@ImGui@@YAXPAUImGuiWindow@@0@Z 10010a90 f   imgui.obj
+ 0001:0000fb30       ?SetCurrentFont@ImGui@@YAXPAUImFont@@@Z 10010b30 f   imgui.obj
+ 0001:0000fbd0       ?PushFont@ImGui@@YAXPAUImFont@@@Z 10010bd0 f   imgui.obj
+ 0001:0000fc80       ?PopFont@ImGui@@YAXXZ      10010c80 f   imgui.obj
+ 0001:0000fd00       ?SetWindowPos@ImGui@@YAXPAUImGuiWindow@@ABUImVec2@@H@Z 10010d00 f   imgui.obj
+ 0001:0000fde0       ?SetWindowSize@ImGui@@YAXPAUImGuiWindow@@ABUImVec2@@H@Z 10010de0 f   imgui.obj
+ 0001:0000fe70       ?SetItemDefaultFocus@ImGui@@YAXXZ 10010e70 f   imgui.obj
+ 0001:0000fff0       ?ItemSize@ImGui@@YAXABUImVec2@@M@Z 10010ff0 f   imgui.obj
+ 0001:00010180       ?ItemAdd@ImGui@@YA_NABUImRect@@IPBU2@@Z 10011180 f   imgui.obj
+ 0001:00010340       ?BeginGroup@ImGui@@YAXXZ   10011340 f   imgui.obj
+ 0001:00010460       ?EndGroup@ImGui@@YAXXZ     10011460 f   imgui.obj
+ 0001:00010870       ?ScrollToBringRectIntoView@ImGui@@YA?AUImVec2@@PAUImGuiWindow@@ABUImRect@@@Z 10011870 f   imgui.obj
+ 0001:00010b70       ?SetScrollFromPosY@ImGui@@YAXPAUImGuiWindow@@MM@Z 10011b70 f   imgui.obj
+ 0001:00010c30       ?BeginTooltipEx@ImGui@@YAXHH@Z 10011c30 f   imgui.obj
+ 0001:00010d70       ?SetTooltip@ImGui@@YAXPBDZZ 10011d70 f   imgui.obj
+ 0001:00010da0       ?GetTopMostPopupModal@ImGui@@YAPAUImGuiWindow@@XZ 10011da0 f   imgui.obj
+ 0001:00010de0       ?OpenPopupEx@ImGui@@YAXIH@Z 10011de0 f   imgui.obj
+ 0001:00010f60       ?ClosePopupsOverWindow@ImGui@@YAXPAUImGuiWindow@@_N@Z 10011f60 f   imgui.obj
+ 0001:00011000       ?ClosePopupToLevel@ImGui@@YAXH_N@Z 10012000 f   imgui.obj
+ 0001:000110c0       ?CloseCurrentPopup@ImGui@@YAXXZ 100120c0 f   imgui.obj
+ 0001:00011150       ?FindBestWindowPosForPopupEx@ImGui@@YA?AUImVec2@@ABU2@0PAHABUImRect@@2W4ImGuiPopupPositionPolicy@@@Z 10012150 f   imgui.obj
+ 0001:00011400       ?FindBestWindowPosForPopup@ImGui@@YA?AUImVec2@@PAUImGuiWindow@@@Z 10012400 f   imgui.obj
+ 0001:00011720       ?SetFocusID@ImGui@@YAXIPAUImGuiWindow@@@Z 10012720 f   imgui.obj
+ 0001:00011f10       ?NavMoveRequestForward@ImGui@@YAXHHABUImRect@@H@Z 10012f10 f   imgui.obj
+ 0001:00012010       ?NavInitWindow@ImGui@@YAXPAUImGuiWindow@@_N@Z 10013010 f   imgui.obj
+ 0001:000121e0       ?GetNavInputAmount@ImGui@@YAMHW4ImGuiInputReadMode@@@Z 100131e0 f   imgui.obj
+ 0001:00014490       ?ClearDragDrop@ImGui@@YAXXZ 10015490 f   imgui.obj
+ 0001:00014570       ?LogText@ImGui@@YAXPBDZZ   10015570 f   imgui.obj
+ 0001:00014620       ?LogRenderedText@ImGui@@YAXPBUImVec2@@PBD1@Z 10015620 f   imgui.obj
+ 0001:00014780       ?LogFinish@ImGui@@YAXXZ    10015780 f   imgui.obj
+ 0001:00014870       ?CreateNewWindowSettings@ImGui@@YAPAUImGuiWindowSettings@@PBD@Z 10015870 f   imgui.obj
+ 0001:00014950       ?LoadIniSettingsFromMemory@ImGui@@YAXPBDI@Z 10015950 f   imgui.obj
+ 0001:00014be0       ?SaveIniSettingsToMemory@ImGui@@YAPBDPAI@Z 10015be0 f   imgui.obj
+ 0001:000153f0       ??1?$ImVector@D@@QAE@XZ    100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@E@@QAE@XZ    100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@G@@QAE@XZ    100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@I@@QAE@XZ    100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@PAUImDrawList@@@@QAE@XZ 100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@PAUImFont@@@@QAE@XZ 100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@PAUImGuiWindow@@@@QAE@XZ 100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@UImFontAtlasCustomRect@@@@QAE@XZ 100163f0 f i imgui_draw.obj
+ 0001:000153f0       ??1?$ImVector@UImFontBuildDstData@@@@QAE@XZ 100163f0 f i imgui_draw.obj
+ 0001:000153f0       ??1?$ImVector@UImFontBuildSrcData@@@@QAE@XZ 100163f0 f i imgui_draw.obj
+ 0001:000153f0       ??1?$ImVector@UImFontConfig@@@@QAE@XZ 100163f0 f i imgui_draw.obj
+ 0001:000153f0       ??1?$ImVector@UImGuiColorMod@@@@QAE@XZ 100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@UImGuiColumns@@@@QAE@XZ 100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@UImGuiPopupData@@@@QAE@XZ 100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@UImGuiPtrOrIndex@@@@QAE@XZ 100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@UImGuiSettingsHandler@@@@QAE@XZ 100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@UImGuiShrinkWidthItem@@@@QAE@XZ 100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@UImGuiStyleMod@@@@QAE@XZ 100163f0 f i imgui.obj
+ 0001:000153f0       ??1?$ImVector@Ustbrp_rect@@@@QAE@XZ 100163f0 f i imgui_draw.obj
+ 0001:000153f0       ??1?$ImVector@Ustbtt_packedchar@@@@QAE@XZ 100163f0 f i imgui_draw.obj
+ 0001:00015440       ?resize@?$ImVector@UImGuiGroupData@@@@QAEXH@Z 10016440 f i imgui.obj
+ 0001:000154f0       ?push_back@?$ImVector@H@@QAEXABH@Z 100164f0 f i imgui.obj
+ 0001:000154f0       ?push_back@?$ImVector@I@@QAEXABI@Z 100164f0 f i imgui.obj
+ 0001:000154f0       ?push_back@?$ImVector@PAUImFont@@@@QAEXABQAUImFont@@@Z 100164f0 f i imgui.obj
+ 0001:000155a0       ?Clear@?$ImPool@UImGuiTabBar@@@@QAEXXZ 100165a0 f i imgui.obj
+ 0001:000156e0       ??1?$ImPool@UImGuiTabBar@@@@QAE@XZ 100166e0 f i imgui.obj
+ 0001:00015760       ?push_back@?$ImVector@UImGuiStyleMod@@@@QAEXABUImGuiStyleMod@@@Z 10016760 f i imgui.obj
+ 0001:00015820       ?push_back@?$ImVector@UImGuiColorMod@@@@QAEXABUImGuiColorMod@@@Z 10016820 f i imgui.obj
+ 0001:000158e0       ?reserve@?$ImVector@M@@QAEXH@Z 100168e0 f i imgui.obj
+ 0001:000158e0       ?reserve@?$ImVector@PAUImGuiWindow@@@@QAEXH@Z 100168e0 f i imgui.obj
+ 0001:000158e0       ?reserve@?$ImVector@PAX@@QAEXH@Z 100168e0 f i imgui_draw.obj
+ 0001:00015960       ?resize@?$ImVector@I@@QAEXH@Z 10016960 f i imgui.obj
+ 0001:00015960       ?resize@?$ImVector@PAUImDrawList@@@@QAEXH@Z 10016960 f i imgui.obj
+ 0001:00015a10       ??0?$ImVector@PAUImDrawList@@@@QAE@XZ 10016a10 f i imgui.obj
+ 0001:00015a30       ?resize@?$ImVector@M@@QAEXH@Z 10016a30 f i imgui.obj
+ 0001:00015ae0       ?reserve@?$ImVector@UImDrawVert@@@@QAEXH@Z 10016ae0 f i imgui.obj
+ 0001:00015b60       ?insert@?$ImVector@UImGuiStoragePair@ImGuiStorage@@@@QAEPAUImGuiStoragePair@ImGuiStorage@@PBU23@ABU23@@Z 10016b60 f i imgui.obj
+ 0001:00015c60       ?reserve@?$ImVector@G@@QAEXH@Z 10016c60 f i imgui.obj
+ 0001:00015ce0       ?reserve@?$ImVector@UImGuiPopupData@@@@QAEXH@Z 10016ce0 f i imgui.obj
+ 0001:00015d60       ??1ImGuiContext@@QAE@XZ    10016d60 f i imgui.obj
+ 0001:00016170       ___local_stdio_scanf_options 10017170 f i imgui.obj
+ 0001:00016180       __vsscanf_l                10017180 f i imgui.obj
+ 0001:000161b0       _sscanf                    100171b0 f i imgui.obj
+ 0001:000161d0       ?reserve@?$ImVector@UImVec2@@@@QAEXH@Z 100171d0 f i imgui.obj
+ 0001:00016250       ?reserve@?$ImVector@D@@QAEXH@Z 10017250 f i imgui.obj
+ 0001:000162c0       __vsnprintf_l              100172c0 f i imgui.obj
+ 0001:00016300       ??3@YAXPAXUImNewWrapper@@0@Z 10017300 f i imgui.obj
+ 0001:00016300       @_guard_check_icall_nop@4  10017300 f i MSVCRT:guard_support.obj
+ 0001:00016310       ??1ImDrawList@@QAE@XZ      10017310 f i imgui.obj
+ 0001:00016430       ??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z 10017430 f i imgui.obj
+ 0001:00016540       ??1ImDrawData@@QAE@XZ      10017540 f i imgui.obj
+ 0001:00016590       _sinf                      10017590 f i imgui_demo.obj
+ 0001:0001d390       ?StyleColorsDark@ImGui@@YAXPAUImGuiStyle@@@Z 1001e390 f   imgui_draw.obj
+ 0001:0001d890       ?_ResetForNewFrame@ImDrawList@@QAEXXZ 1001e890 f   imgui_draw.obj
+ 0001:0001da70       ?_ClearFreeMemory@ImDrawList@@QAEXXZ 1001ea70 f   imgui_draw.obj
+ 0001:0001dbd0       ?AddDrawCmd@ImDrawList@@QAEXXZ 1001ebd0 f   imgui_draw.obj
+ 0001:0001dc70       ?_OnChangedClipRect@ImDrawList@@QAEXXZ 1001ec70 f   imgui_draw.obj
+ 0001:0001dd10       ?_OnChangedTextureID@ImDrawList@@QAEXXZ 1001ed10 f   imgui_draw.obj
+ 0001:0001dda0       ?PrimReserve@ImDrawList@@QAEXHH@Z 1001eda0 f   imgui_draw.obj
+ 0001:0001dea0       ?PrimRectUV@ImDrawList@@QAEXABUImVec2@@000I@Z 1001eea0 f   imgui_draw.obj
+ 0001:0001dfc0       ?AddPolyline@ImDrawList@@QAEXPBUImVec2@@HI_NM@Z 1001efc0 f   imgui_draw.obj
+ 0001:0001ece0       ?AddConvexPolyFilled@ImDrawList@@QAEXPBUImVec2@@HI@Z 1001fce0 f   imgui_draw.obj
+ 0001:0001f090       ?PathArcToFast@ImDrawList@@QAEXABUImVec2@@MHH@Z 10020090 f   imgui_draw.obj
+ 0001:0001f1d0       ?PathArcTo@ImDrawList@@QAEXABUImVec2@@MMMH@Z 100201d0 f   imgui_draw.obj
+ 0001:0001f340       ?PathRect@ImDrawList@@QAEXABUImVec2@@0MH@Z 10020340 f   imgui_draw.obj
+ 0001:0001f670       ?AddLine@ImDrawList@@QAEXABUImVec2@@0IM@Z 10020670 f   imgui_draw.obj
+ 0001:0001f790       ?AddRectFilled@ImDrawList@@QAEXABUImVec2@@0IMH@Z 10020790 f   imgui_draw.obj
+ 0001:0001f8e0       ?AddTriangleFilled@ImDrawList@@QAEXABUImVec2@@00I@Z 100208e0 f   imgui_draw.obj
+ 0001:0001f9f0       ?AddImage@ImDrawList@@QAEXPAXABUImVec2@@111I@Z 100209f0 f   imgui_draw.obj
+ 0001:0001fac0       ?ClearFreeMemory@ImDrawListSplitter@@QAEXXZ 10020ac0 f   imgui_draw.obj
+ 0001:0001fbd0       ?Merge@ImDrawListSplitter@@QAEXPAUImDrawList@@@Z 10020bd0 f   imgui_draw.obj
+ 0001:00020090       ?SetCurrentChannel@ImDrawListSplitter@@QAEXPAUImDrawList@@H@Z 10021090 f   imgui_draw.obj
+ 0001:00020170       ??0ImFontConfig@@QAE@XZ    10021170 f   imgui_draw.obj
+ 0001:00020210       ??1ImFontAtlas@@QAE@XZ     10021210 f   imgui_draw.obj
+ 0001:00020370       ?ClearInputData@ImFontAtlas@@QAEXXZ 10021370 f   imgui_draw.obj
+ 0001:000204c0       ?AddFont@ImFontAtlas@@QAEPAUImFont@@PBUImFontConfig@@@Z 100214c0 f   imgui_draw.obj
+ 0001:000206c0       ?AddFontFromMemoryCompressedTTF@ImFontAtlas@@QAEPAUImFont@@PBXHMPBUImFontConfig@@PBG@Z 100216c0 f   imgui_draw.obj
+ 0001:00020840       ?AddFontFromMemoryCompressedBase85TTF@ImFontAtlas@@QAEPAUImFont@@PBDMPBUImFontConfig@@PBG@Z 10021840 f   imgui_draw.obj
+ 0001:00020990       ?ImFontAtlasBuildWithStbTruetype@@YA_NPAUImFontAtlas@@@Z 10021990 f   imgui_draw.obj
+ 0001:00021d00       ?ImFontAtlasBuildRender1bppRectFromString@@YAXPAUImFontAtlas@@HHHHPBDDE@Z 10022d00 f   imgui_draw.obj
+ 0001:00021d70       ?ImFontAtlasBuildFinish@@YAXPAUImFontAtlas@@@Z 10022d70 f   imgui_draw.obj
+ 0001:00022270       ??0ImFont@@QAE@XZ          10023270 f   imgui_draw.obj
+ 0001:00022310       ??1ImFont@@QAE@XZ          10023310 f   imgui_draw.obj
+ 0001:000223b0       ?ClearOutputData@ImFont@@QAEXXZ 100233b0 f   imgui_draw.obj
+ 0001:00022490       ?BuildLookupTable@ImFont@@QAEXXZ 10023490 f   imgui_draw.obj
+ 0001:000227f0       ?GrowIndex@ImFont@@QAEXH@Z 100237f0 f   imgui_draw.obj
+ 0001:000228a0       ?AddGlyph@ImFont@@QAEXPBUImFontConfig@@GMMMMMMMMM@Z 100238a0 f   imgui_draw.obj
+ 0001:00022a70       ?CalcWordWrapPositionA@ImFont@@QBEPBDMPBD0M@Z 10023a70 f   imgui_draw.obj
+ 0001:00022be0       ?CalcTextSizeA@ImFont@@QBE?AUImVec2@@MMMPBD0PAPBD@Z 10023be0 f   imgui_draw.obj
+ 0001:00022d90       ?RenderText@ImFont@@QBEXPAUImDrawList@@MUImVec2@@IABUImVec4@@PBD3M_N@Z 10023d90 f   imgui_draw.obj
+ 0001:00023330       ?RenderArrow@ImGui@@YAXPAUImDrawList@@UImVec2@@IHM@Z 10024330 f   imgui_draw.obj
+ 0001:000234a0       ?RenderCheckMark@ImGui@@YAXPAUImDrawList@@UImVec2@@IM@Z 100244a0 f   imgui_draw.obj
+ 0001:00023670       ?RenderMouseCursor@ImGui@@YAXPAUImDrawList@@UImVec2@@MHIII@Z 10024670 f   imgui_draw.obj
+ 0001:00023dd0       ?resize@?$ImVector@UImFontGlyph@@@@QAEXH@Z 10024dd0 f i imgui_draw.obj
+ 0001:00023e80       ?push_back@?$ImVector@UImFontAtlasCustomRect@@@@QAEXABUImFontAtlasCustomRect@@@Z 10024e80 f i imgui_draw.obj
+ 0001:00023f60       ?reserve@?$ImVector@UImVec4@@@@QAEXH@Z 10024f60 f i imgui_draw.obj
+ 0001:00023fe0       ?reserve@?$ImVector@UImDrawCmd@@@@QAEXH@Z 10024fe0 f i imgui_draw.obj
+ 0001:000241b0       ?ImGui_ImplOpenGL2_RenderDrawData@@YAXPAUImDrawData@@@Z 100251b0 f   imgui_impl_opengl2.obj
+ 0001:000244b0       ?ImGui_ImplOpenGL2_CreateFontsTexture@@YA_NXZ 100254b0 f   imgui_impl_opengl2.obj
+ 0001:00024a70       ?ImGui_ImplWin32_WndProcHandler@@YAJPAUHWND__@@IIJ@Z 10025a70 f   imgui_impl_win32.obj
+ 0001:00024df0       ?TextEx@ImGui@@YAXPBD0H@Z  10025df0 f   imgui_widgets.obj
+ 0001:00025260       ?Text@ImGui@@YAXPBDZZ      10026260 f   imgui_widgets.obj
+ 0001:00025280       ?TextV@ImGui@@YAXPBDPAD@Z  10026280 f   imgui_widgets.obj
+ 0001:000252f0       ?TextColored@ImGui@@YAXABUImVec4@@PBDZZ 100262f0 f   imgui_widgets.obj
+ 0001:00025370       ?ButtonBehavior@ImGui@@YA_NABUImRect@@IPA_N1H@Z 10026370 f   imgui_widgets.obj
+ 0001:00025980       ?CollapseButton@ImGui@@YA_NIABUImVec2@@@Z 10026980 f   imgui_widgets.obj
+ 0001:00025d70       ?Scrollbar@ImGui@@YAXW4ImGuiAxis@@@Z 10026d70 f   imgui_widgets.obj
+ 0001:00025ef0       ?ScrollbarEx@ImGui@@YA_NABUImRect@@IW4ImGuiAxis@@PAMMMH@Z 10026ef0 f   imgui_widgets.obj
+ 0001:00026500       ?Checkbox@ImGui@@YA_NPBDPA_N@Z 10027500 f   imgui_widgets.obj
+ 0001:00026a70       ?SeparatorEx@ImGui@@YAXH@Z 10027a70 f   imgui_widgets.obj
+ 0001:00026f30       ?BeginCombo@ImGui@@YA_NPBD0H@Z 10027f30 f   imgui_widgets.obj
+ 0001:00027a40       ?DataTypeApplyOpFromText@ImGui@@YA_NPBD0HPAX0@Z 10028a40 f   imgui_widgets.obj
+ 0001:00027ba0       ?SliderScalar@ImGui@@YA_NPBDHPAXPBX20H@Z 10028ba0 f   imgui_widgets.obj
+ 0001:00028240       ?ImParseFormatFindEnd@@YAPBDPBD@Z 10029240 f   imgui_widgets.obj
+ 0001:000282a0       ?TempInputScalar@ImGui@@YA_NABUImRect@@IPBDHPAX1PBX3@Z 100292a0 f   imgui_widgets.obj
+ 0001:00029ff0       ?InputTextEx@ImGui@@YA_NPBD0PADHABUImVec2@@HP6AHPAUImGuiInputTextCallbackData@@@ZPAX@Z 1002aff0 f   imgui_widgets.obj
+ 0001:0002d4b0       ?Selectable@ImGui@@YA_NPBD_NHABUImVec2@@@Z 1002e4b0 f   imgui_widgets.obj
+ 0001:0002d950       ?SetColumnOffset@ImGui@@YAXHM@Z 1002e950 f   imgui_widgets.obj
+ 0001:0002da50       ?EndColumns@ImGui@@YAXXZ   1002ea50 f   imgui_widgets.obj
+ 0001:0002e020       ??$SliderBehaviorT@HHM@ImGui@@YA_NABUImRect@@IHPAHHHPBDHPAU1@@Z 1002f020 f i imgui_widgets.obj
+ 0001:0002e4d0       ??$ScaleRatioFromValueT@HHM@ImGui@@YAMHHHH_NMM@Z 1002f4d0 f i imgui_widgets.obj
+ 0001:0002e820       ??$ScaleValueFromRatioT@HHM@ImGui@@YAHHMHH_NMM@Z 1002f820 f i imgui_widgets.obj
+ 0001:0002eb00       ??$RoundScalarWithFormatT@HH@ImGui@@YAHPBDHH@Z 1002fb00 f i imgui_widgets.obj
+ 0001:0002eb60       ?FreeBuffer@@YAXPAX@Z      1002fb60 f   buffer.obj
+ 0001:0002ebe0       _hde32_disasm              1002fbe0 f   hde32.obj
+ 0001:0002fad0       ?MH_CreateHookEx@@YG?AW4MH_STATUS@@KPAX0PAPAX@Z 10030ad0 f   hook.obj
+ 0001:0002fd60       ?CreateTrampolineFunction@@YAHPAU_TRAMPOLINE@@@Z 10030d60 f   trampoline.obj
+ 0001:0003005b       ??_L@YGXPAXIIP6EX0@Z1@Z    1003105b f   MSVCRT:ehvecctr.obj
+ 0001:000300cf       ??_M@YGXPAXIIP6EX0@Z@Z     100310cf f   MSVCRT:ehvecdtr.obj
+ 0001:00030154       ?__ArrayUnwind@@YGXPAXIIP6EX0@Z@Z 10031154 f   MSVCRT:ehvecdtr.obj
+ 0001:00030226       ___scrt_acquire_startup_lock 10031226 f   MSVCRT:utility.obj
+ 0001:00030258       ___scrt_dllmain_after_initialize_c 10031258 f   MSVCRT:utility.obj
+ 0001:00030283       ___scrt_dllmain_before_initialize_c 10031283 f   MSVCRT:utility.obj
+ 0001:00030291       ___scrt_dllmain_crt_thread_attach 10031291 f   MSVCRT:utility.obj
+ 0001:000302b0       ___scrt_dllmain_crt_thread_detach 100312b0 f   MSVCRT:utility.obj
+ 0001:000302bd       ___scrt_dllmain_exception_filter 100312bd f   MSVCRT:utility.obj
+ 0001:000302f1       ___scrt_dllmain_uninitialize_c 100312f1 f   MSVCRT:utility.obj
+ 0001:00030314       ___scrt_dllmain_uninitialize_critical 10031314 f   MSVCRT:utility.obj
+ 0001:00030321       ___scrt_initialize_crt     10031321 f   MSVCRT:utility.obj
+ 0001:0003035a       ___scrt_initialize_onexit_tables 1003135a f   MSVCRT:utility.obj
+ 0001:000303e1       ___scrt_is_nonwritable_in_current_image 100313e1 f   MSVCRT:utility.obj
+ 0001:00030475       ___scrt_release_startup_lock 10031475 f   MSVCRT:utility.obj
+ 0001:00030492       ___scrt_uninitialize_crt   10031492 f   MSVCRT:utility.obj
+ 0001:000307f8       __DllMainCRTStartup@12     100317f8 f   MSVCRT:dll_dllmain.obj
+ 0001:00030820       __SEH_prolog4              10031820 f   MSVCRT:sehprolg4.obj
+ 0001:00030865       __except_handler4          10031865 f   MSVCRT:chandler4gs.obj
+ 0001:00030894       ___isa_available_init      10031894 f   MSVCRT:cpu_disp.obj
+ 0001:00030bc1       __get_startup_argv_mode    10031bc1 f   MSVCRT:argv_mode.obj
+ 0001:00030bc5       ___scrt_is_ucrt_dll_in_use 10031bc5 f   MSVCRT:ucrt_detection.obj
+ 0001:00030bd1       ___scrt_fastfail           10031bd1 f   MSVCRT:utility_desktop.obj
+ 0001:00030ce6       __crt_debugger_hook        10031ce6 f   MSVCRT:utility_desktop.obj
+ 0001:00030d3b       ___security_init_cookie    10031d3b f   MSVCRT:gs_support.obj
+ 0001:00030d86       ?__scrt_initialize_type_info@@YAXXZ 10031d86 f   MSVCRT:tncleanup.obj
+ 0001:00030d92       ?__scrt_uninitialize_type_info@@YAXXZ 10031d92 f   MSVCRT:tncleanup.obj
+ 0001:00030d9e       ___scrt_initialize_default_local_stdio_options 10031d9e f   MSVCRT:default_local_stdio_options.obj
+ 0001:00030dbb       ___scrt_get_dyn_tls_init_callback 10031dbb f   MSVCRT:dyn_tls_init.obj
+ 0001:00030dc1       __RTC_Initialize           10031dc1 f   MSVCRT:initsect.obj
+ 0001:00030ded       __RTC_Terminate            10031ded f   MSVCRT:initsect.obj
+ 0001:00030e19       @__security_check_cookie@4 10031e19 f   MSVCRT:secchk.obj
+ 0001:00030e27       ___raise_securityfailure   10031e27 f   MSVCRT:gs_report.obj
+ 0001:00030e4f       ___report_gsfailure        10031e4f f   MSVCRT:gs_report.obj
+ 0001:00030f4a       ___CxxFrameHandler3        10031f4a f   vcruntime:VCRUNTIME140.dll
+ 0001:00030f50       ___std_terminate           10031f50 f   vcruntime:VCRUNTIME140.dll
+ 0001:00030f56       ___current_exception       10031f56 f   vcruntime:VCRUNTIME140.dll
+ 0001:00030f5c       ___current_exception_context 10031f5c f   vcruntime:VCRUNTIME140.dll
+ 0001:00030f62       __except_handler4_common   10031f62 f   vcruntime:VCRUNTIME140.dll
+ 0001:00030f68       _memset                    10031f68 f   vcruntime:VCRUNTIME140.dll
+ 0001:00030f6e       ___std_type_info_destroy_list 10031f6e f   vcruntime:VCRUNTIME140.dll
+ 0001:00030f74       _terminate                 10031f74 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00030f7a       __seh_filter_dll           10031f7a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00030f80       __configure_narrow_argv    10031f80 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00030f86       __initialize_narrow_environment 10031f86 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00030f8c       __initialize_onexit_table  10031f8c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00030f92       __execute_onexit_table     10031f92 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00030f98       __cexit                    10031f98 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00030f9e       __initterm                 10031f9e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00030fa4       __initterm_e               10031fa4 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00030faa       ___acrt_initialize         10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___acrt_thread_attach      10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___acrt_thread_detach      10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___acrt_uninitialize       10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___acrt_uninitialize_critical 10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___scrt_stub_for_acrt_initialize 10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___scrt_stub_for_acrt_thread_attach 10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___scrt_stub_for_acrt_thread_detach 10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___scrt_stub_for_acrt_uninitialize 10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___scrt_stub_for_acrt_uninitialize_critical 10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___vcrt_initialize         10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___vcrt_thread_attach      10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___vcrt_thread_detach      10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___vcrt_uninitialize       10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030faa       ___vcrt_uninitialize_critical 10031faa f   MSVCRT:ucrt_stubs.obj
+ 0001:00030fad       ___scrt_stub_for_is_c_termination_complete 10031fad f   MSVCRT:ucrt_stubs.obj
+ 0001:00030fad       __is_c_termination_complete 10031fad f   MSVCRT:ucrt_stubs.obj
+ 0001:00030fb0       __filter_x86_sse2_floating_point_exception 10031fb0 f   MSVCRT:x86_exception_filter.obj
+ 0001:00030fb0       __filter_x86_sse2_floating_point_exception_default 10031fb0 f   MSVCRT:x86_exception_filter.obj
+ 0001:00031030       __alloca_probe_16          10032030 f   MSVCRT:alloca16.obj
+ 0001:00031046       __alloca_probe_8           10032046     MSVCRT:alloca16.obj
+ 0001:00031060       __ftol3                    10032060 f   MSVCRT:ftol3.obj
+ 0001:000310d0       __ltof3                    100320d0 f   MSVCRT:ftol3.obj
+ 0001:00031120       __alloca_probe             10032120 f   MSVCRT:chkstk.obj
+ 0001:00031120       __chkstk                   10032120 f   MSVCRT:chkstk.obj
+ 0001:0003114b       _memchr                    1003214b f   vcruntime:VCRUNTIME140.dll
+ 0001:00031151       _memcpy                    10032151 f   vcruntime:VCRUNTIME140.dll
+ 0001:00031157       _memmove                   10032157 f   vcruntime:VCRUNTIME140.dll
+ 0001:0003115d       __CIatan2                  1003215d f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:00031163       __CIfmod                   10032163 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:00031169       __libm_sse2_acos_precise   10032169 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:0003116f       __libm_sse2_asin_precise   1003216f f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:00031175       __libm_sse2_cos_precise    10032175 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:0003117b       __libm_sse2_log_precise    1003217b f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:00031181       __libm_sse2_pow_precise    10032181 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:00031187       __libm_sse2_sin_precise    10032187 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:0003118d       __libm_sse2_sqrt_precise   1003218d f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:00031193       _ceil                      10032193 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:00031199       _floor                     10032199 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000000       __imp__ImmReleaseContext@8 10033000     imm32:IMM32.dll
+ 0002:00000004       __imp__ImmSetCompositionWindow@8 10033004     imm32:IMM32.dll
+ 0002:00000008       __imp__ImmGetContext@4     10033008     imm32:IMM32.dll
+ 0002:0000000c       \177IMM32_NULL_THUNK_DATA  1003300c     imm32:IMM32.dll
+ 0002:00000010       __imp__MultiByteToWideChar@24 10033010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__GlobalLock@4        10033014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__WideCharToMultiByte@32 10033018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__GlobalUnlock@4      1003301c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GlobalAlloc@8       10033020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GlobalFree@4        10033024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__QueryPerformanceFrequency@4 10033028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__QueryPerformanceCounter@4 1003302c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__VirtualFree@12      10033030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__VirtualAlloc@16     10033034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__HeapAlloc@12        10033038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__HeapReAlloc@16      1003303c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetThreadContext@8  10033040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__SetThreadContext@8  10033044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__CreateToolhelp32Snapshot@8 10033048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__Thread32First@8     1003304c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetCurrentProcessId@0 10033050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GetCurrentThreadId@0 10033054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__OpenThread@12       10033058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__SuspendThread@4     1003305c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__CloseHandle@4       10033060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__GetModuleHandleA@4  10033064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__Thread32Next@8      10033068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__GetLastError@0      1003306c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__HeapFree@12         10033070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__GetCurrentProcess@0 10033074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GetThreadId@4       10033078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__VirtualProtect@16   1003307c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__FlushInstructionCache@12 10033080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__CreateMutexA@12     10033084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__HeapCreate@12       10033088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__WaitForSingleObject@8 1003308c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__ReleaseMutex@4      10033090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__HeapDestroy@4       10033094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__SetConsoleTitleA@4  10033098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__IsProcessorFeaturePresent@4 1003309c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__IsDebuggerPresent@0 100330a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__UnhandledExceptionFilter@4 100330a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__SetUnhandledExceptionFilter@4 100330a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__GetSystemTimeAsFileTime@4 100330ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__InitializeSListHead@4 100330b0     kernel32:KERNEL32.dll
+ 0002:000000b4       __imp__TerminateProcess@8  100330b4     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp__GetProcAddress@8    100330b8     kernel32:KERNEL32.dll
+ 0002:000000bc       __imp__AllocConsole@0      100330bc     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp__ResumeThread@4      100330c0     kernel32:KERNEL32.dll
+ 0002:000000c4       \177KERNEL32_NULL_THUNK_DATA 100330c4     kernel32:KERNEL32.dll
+ 0002:000000c8       __imp__glPixelStorei@8     100330c8     opengl32:OPENGL32.dll
+ 0002:000000cc       __imp__glTexParameteri@12  100330cc     opengl32:OPENGL32.dll
+ 0002:000000d0       __imp__glDeleteTextures@8  100330d0     opengl32:OPENGL32.dll
+ 0002:000000d4       __imp__glGenTextures@8     100330d4     opengl32:OPENGL32.dll
+ 0002:000000d8       __imp__glTexImage2D@36     100330d8     opengl32:OPENGL32.dll
+ 0002:000000dc       __imp__glEnable@4          100330dc     opengl32:OPENGL32.dll
+ 0002:000000e0       __imp__glBlendFunc@8       100330e0     opengl32:OPENGL32.dll
+ 0002:000000e4       __imp__glDisable@4         100330e4     opengl32:OPENGL32.dll
+ 0002:000000e8       __imp__glEnableClientState@4 100330e8     opengl32:OPENGL32.dll
+ 0002:000000ec       __imp__glDisableClientState@4 100330ec     opengl32:OPENGL32.dll
+ 0002:000000f0       __imp__glPolygonMode@8     100330f0     opengl32:OPENGL32.dll
+ 0002:000000f4       __imp__glShadeModel@4      100330f4     opengl32:OPENGL32.dll
+ 0002:000000f8       __imp__glTexEnvi@12        100330f8     opengl32:OPENGL32.dll
+ 0002:000000fc       __imp__glViewport@16       100330fc     opengl32:OPENGL32.dll
+ 0002:00000100       __imp__glMatrixMode@4      10033100     opengl32:OPENGL32.dll
+ 0002:00000104       __imp__glPushMatrix@0      10033104     opengl32:OPENGL32.dll
+ 0002:00000108       __imp__glLoadIdentity@0    10033108     opengl32:OPENGL32.dll
+ 0002:0000010c       __imp__glOrtho@48          1003310c     opengl32:OPENGL32.dll
+ 0002:00000110       __imp__glGetIntegerv@8     10033110     opengl32:OPENGL32.dll
+ 0002:00000114       __imp__glGetTexEnviv@12    10033114     opengl32:OPENGL32.dll
+ 0002:00000118       __imp__glPushAttrib@4      10033118     opengl32:OPENGL32.dll
+ 0002:0000011c       __imp__glVertexPointer@16  1003311c     opengl32:OPENGL32.dll
+ 0002:00000120       __imp__glTexCoordPointer@16 10033120     opengl32:OPENGL32.dll
+ 0002:00000124       __imp__glColorPointer@16   10033124     opengl32:OPENGL32.dll
+ 0002:00000128       __imp__glScissor@16        10033128     opengl32:OPENGL32.dll
+ 0002:0000012c       __imp__glBindTexture@8     1003312c     opengl32:OPENGL32.dll
+ 0002:00000130       __imp__glDrawElements@16   10033130     opengl32:OPENGL32.dll
+ 0002:00000134       __imp__glPopMatrix@0       10033134     opengl32:OPENGL32.dll
+ 0002:00000138       __imp__glPopAttrib@0       10033138     opengl32:OPENGL32.dll
+ 0002:0000013c       \177OPENGL32_NULL_THUNK_DATA 1003313c     opengl32:OPENGL32.dll
+ 0002:00000140       __imp__ScreenToClient@8    10033140     user32:USER32.dll
+ 0002:00000144       __imp__EmptyClipboard@0    10033144     user32:USER32.dll
+ 0002:00000148       __imp__ReleaseCapture@0    10033148     user32:USER32.dll
+ 0002:0000014c       __imp__SetCapture@4        1003314c     user32:USER32.dll
+ 0002:00000150       __imp__GetCapture@0        10033150     user32:USER32.dll
+ 0002:00000154       __imp__GetKeyState@4       10033154     user32:USER32.dll
+ 0002:00000158       __imp__GetClientRect@8     10033158     user32:USER32.dll
+ 0002:0000015c       __imp__IsChild@8           1003315c     user32:USER32.dll
+ 0002:00000160       __imp__GetForegroundWindow@0 10033160     user32:USER32.dll
+ 0002:00000164       __imp__SetCursorPos@8      10033164     user32:USER32.dll
+ 0002:00000168       __imp__ClientToScreen@8    10033168     user32:USER32.dll
+ 0002:0000016c       __imp__LoadCursorA@8       1003316c     user32:USER32.dll
+ 0002:00000170       __imp__SetCursor@4         10033170     user32:USER32.dll
+ 0002:00000174       __imp__SetClipboardData@8  10033174     user32:USER32.dll
+ 0002:00000178       __imp__OpenClipboard@4     10033178     user32:USER32.dll
+ 0002:0000017c       __imp__GetCursorPos@4      1003317c     user32:USER32.dll
+ 0002:00000180       __imp__SetWindowLongA@12   10033180     user32:USER32.dll
+ 0002:00000184       __imp__FindWindowA@8       10033184     user32:USER32.dll
+ 0002:00000188       __imp__CallWindowProcA@20  10033188     user32:USER32.dll
+ 0002:0000018c       __imp__GetAsyncKeyState@4  1003318c     user32:USER32.dll
+ 0002:00000190       __imp__GetClipboardData@4  10033190     user32:USER32.dll
+ 0002:00000194       __imp__CloseClipboard@0    10033194     user32:USER32.dll
+ 0002:00000198       \177USER32_NULL_THUNK_DATA 10033198     user32:USER32.dll
+ 0002:0000019c       __imp__memset              1003319c     vcruntime:VCRUNTIME140.dll
+ 0002:000001a0       __imp____std_type_info_destroy_list 100331a0     vcruntime:VCRUNTIME140.dll
+ 0002:000001a4       __imp__memmove             100331a4     vcruntime:VCRUNTIME140.dll
+ 0002:000001a8       __imp____current_exception_context 100331a8     vcruntime:VCRUNTIME140.dll
+ 0002:000001ac       __imp____current_exception 100331ac     vcruntime:VCRUNTIME140.dll
+ 0002:000001b0       __imp__strstr              100331b0     vcruntime:VCRUNTIME140.dll
+ 0002:000001b4       __imp____std_terminate     100331b4     vcruntime:VCRUNTIME140.dll
+ 0002:000001b8       __imp____CxxFrameHandler3  100331b8     vcruntime:VCRUNTIME140.dll
+ 0002:000001bc       __imp__memchr              100331bc     vcruntime:VCRUNTIME140.dll
+ 0002:000001c0       __imp___except_handler4_common 100331c0     vcruntime:VCRUNTIME140.dll
+ 0002:000001c4       __imp__memcpy              100331c4     vcruntime:VCRUNTIME140.dll
+ 0002:000001c8       \177VCRUNTIME140_NULL_THUNK_DATA 100331c8     vcruntime:VCRUNTIME140.dll
+ 0002:000001cc       __imp__XInputGetCapabilities@12 100331cc     xinput:XINPUT1_4.dll
+ 0002:000001d0       __imp__XInputGetState@8    100331d0     xinput:XINPUT1_4.dll
+ 0002:000001d4       \177XINPUT1_4_NULL_THUNK_DATA 100331d4     xinput:XINPUT1_4.dll
+ 0002:000001d8       __imp__free                100331d8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000001dc       __imp__malloc              100331dc     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000001e0       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 100331e0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000001e4       __imp___CIatan2            100331e4     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:000001e8       __imp___CIfmod             100331e8     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:000001ec       __imp___libm_sse2_acos_precise 100331ec     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:000001f0       __imp___libm_sse2_asin_precise 100331f0     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:000001f4       __imp___libm_sse2_cos_precise 100331f4     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:000001f8       __imp___libm_sse2_log_precise 100331f8     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:000001fc       __imp___libm_sse2_pow_precise 100331fc     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000200       __imp___libm_sse2_sin_precise 10033200     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000204       __imp___libm_sse2_sqrt_precise 10033204     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000208       __imp__ceil                10033208     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:0000020c       __imp__floor               1003320c     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000210       \177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 10033210     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000214       __imp___initterm_e         10033214     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000218       __imp___initterm           10033218     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000021c       __imp___seh_filter_dll     1003321c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000220       __imp___configure_narrow_argv 10033220     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000224       __imp___initialize_narrow_environment 10033224     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000228       __imp___cexit              10033228     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000022c       __imp___initialize_onexit_table 1003322c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000230       __imp___execute_onexit_table 10033230     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000234       __imp__terminate           10033234     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000238       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 10033238     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000023c       __imp__freopen_s           1003323c     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000240       __imp____acrt_iob_func     10033240     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000244       __imp__puts                10033244     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000248       __imp____stdio_common_vsprintf 10033248     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000024c       __imp____stdio_common_vsscanf 1003324c     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000250       __imp__fflush              10033250     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000254       __imp____stdio_common_vfprintf 10033254     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000258       __imp__fwrite              10033258     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000025c       __imp__fread               1003325c     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000260       __imp__fseek               10033260     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000264       __imp__ftell               10033264     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000268       __imp__fclose              10033268     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000026c       __imp___wfopen             1003326c     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000270       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 10033270     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000274       __imp__strncpy             10033274     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000278       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 10033278     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:0000027c       __imp__qsort               1003327c     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00000280       \177api-ms-win-crt-utility-l1-1-0_NULL_THUNK_DATA 10033280     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00000284       ___guard_check_icall_fptr  10033284     MSVCRT:guard_support.obj
+ 0002:00000288       ___castguard_check_failure_os_handled_fptr 10033288     MSVCRT:guard_support.obj
+ 0002:0000028c       ___xc_a                    1003328c     MSVCRT:initializers.obj
+ 0002:00000290       ___xc_z                    10033290     MSVCRT:initializers.obj
+ 0002:00000294       ___xi_a                    10033294     MSVCRT:initializers.obj
+ 0002:00000298       ___xi_z                    10033298     MSVCRT:initializers.obj
+ 0002:0000029c       ___xl_a                    1003329c     MSVCRT:tlssup.obj
+ 0002:000002a0       ___xl_z                    100332a0     MSVCRT:tlssup.obj
+ 0002:000002a4       ___xp_a                    100332a4     MSVCRT:initializers.obj
+ 0002:000002a8       ___xp_z                    100332a8     MSVCRT:initializers.obj
+ 0002:000002ac       ___xt_a                    100332ac     MSVCRT:initializers.obj
+ 0002:000002b0       ___xt_z                    100332b0     MSVCRT:initializers.obj
+ 0002:000002c0       __pDefaultRawDllMain       100332c0     MSVCRT:dll_dllmain.obj
+ 0002:000002c0       __pRawDllMain              100332c0     MSVCRT:dll_dllmain.obj
+ 0002:000002cc       ??_C@_0BD@FKAJDNGP@Assualt?5Cube?5?9?5BOI@ 100332cc     dll_main.obj
+ 0002:000002e0       ??_C@_01NOFIACDB@w@        100332e0     dll_main.obj
+ 0002:000002e4       ??_C@_07GPDNMNG@CONOUT$@   100332e4     dll_main.obj
+ 0002:000002ec       ??_C@_0O@LJKODOBF@DLL?5?9?5Loaded?$CB@ 100332ec     dll_main.obj
+ 0002:00000300       ??_C@_0FA@GFPMCJFP@C?3?2Development?2cheats?2PC?2Learn?5@ 10033300     hooks.obj
+ 0002:00000350       ??_C@_0BK@LCGMEGAD@MH_CreateHook?5failed?3?5?$CFs?6@ 10033350     hooks.obj
+ 0002:0000036c       ??_C@_0BK@HCJECLNM@MH_Initialize?5failed?3?5?$CFs?6@ 1003336c     hooks.obj
+ 0002:00000388       ??_C@_0M@DGDEFJKI@AssaultCube@ 10033388     hooks.obj
+ 0002:00000394       ??_C@_0BM@JFAAJHIG@Failed?5to?5find?5game?5window?6@ 10033394     hooks.obj
+ 0002:000003b0       ??_C@_0BJ@JKKBAEPD@SDL_SetRelativeMouseMode@ 100333b0     hooks.obj
+ 0002:000003cc       ??_C@_08HHNHAEIA@SDL2?4dll@ 100333cc     hooks.obj
+ 0002:000003d8       ??_C@_0P@NIPKMJHJ@wglSwapBuffers@ 100333d8     hooks.obj
+ 0002:000003e8       ??_C@_0N@CHKJGCIK@OPENGL32?4dll@ 100333e8     hooks.obj
+ 0002:000003f8       ??_C@_0BK@LEAAKEMG@MH_EnableHook?5failed?3?5?$CFs?6@ 100333f8     hooks.obj
+ 0002:00000414       ??_C@_0BA@BMOPCGPH@Hooks?5?9?5loaded?$CB@ 10033414     hooks.obj
+ 0002:00000424       ??_C@_0BL@JJPBDBFE@MH_DisableHook?5failed?3?5?$CFs?6@ 10033424     hooks.obj
+ 0002:00000440       ??_C@_0BK@KMPNBKHK@MH_RemoveHook?5failed?3?5?$CFs?6@ 10033440     hooks.obj
+ 0002:0000045c       ??_C@_0BM@MNNEKPJK@MH_Uninitialize?5failed?3?5?$CFs?6@ 1003345c     hooks.obj
+ 0002:00000478       ??_C@_0BA@OPLAEGDI@DLL?5?9?5Unloaded?$CB@ 10033478     hooks.obj
+ 0002:00000488       ??_C@_0BD@GABHGJCG@BOI?5?9?5Assault_Cube@ 10033488     menu_interface.obj
+ 0002:0000049c       ??_C@_0P@HHDENACH@Aimbot?5Options@ 1003349c     menu_interface.obj
+ 0002:000004ac       ??_C@_06FHEBLMEF@Aimbot@   100334ac     menu_interface.obj
+ 0002:000004b4       ??_C@_0P@PIDJAEHB@Visual?5Options@ 100334b4     menu_interface.obj
+ 0002:000004c4       ??_C@_0P@CNGFBKAP@Draw?5SnapLines@ 100334c4     menu_interface.obj
+ 0002:000004d4       ??_C@_02DPKJAMEF@?$CFd@    100334d4     menu_interface.obj
+ 0002:000004d8       ??_C@_0BC@MBCEBHLL@SnapLine?5Posision@ 100334d8     menu_interface.obj
+ 0002:000004ec       ??_C@_0L@DACHHMOI@Draw?5Names@ 100334ec     menu_interface.obj
+ 0002:000004f8       ??_C@_0O@KLBDALHG@Draw?5Distance@ 100334f8     menu_interface.obj
+ 0002:00000508       ??_C@_0L@FLCBCFEA@Health?5Bar@ 10033508     menu_interface.obj
+ 0002:00000514       ??_C@_08KPKNJIBC@Box?5Type@ 10033514     menu_interface.obj
+ 0002:00000520       ??_C@_0BA@FAECLGGB@Cross?5Hair?5Type@ 10033520     menu_interface.obj
+ 0002:00000530       ??_C@_01MIFGBAGJ@?$CL@     10033530     menu_interface.obj
+ 0002:00000534       ??_C@_01MMEEDKFM@X@        10033534     menu_interface.obj
+ 0002:00004548       ??_C@_04OHJIHAFH@None@     10037548     menu_interface.obj
+ 0002:00004550       ??_C@_02LDEEJNBC@2D@       10037550     menu_interface.obj
+ 0002:00004554       ??_C@_09LPOCKHNK@2D?5Shader@ 10037554     menu_interface.obj
+ 0002:00004560       ??_C@_06OFCMNDMK@Corner@   10037560     menu_interface.obj
+ 0002:00004568       ??_C@_02LCIGPHCF@3D@       10037568     menu_interface.obj
+ 0002:0000456c       ?boxes@visuals@menu_options@globals@@3V?$array@U?$pair@W4box_type@visuals@menu_options@globals@@PBD@std@@$04@std@@B 1003756c     menu_interface.obj
+ 0002:00004594       ??_C@_08OEDHIHBL@?5?$FL?5?$CFs?5?$FN?5@ 10037594     visuals.obj
+ 0002:000045a0       ??_C@_0M@HNGCNBOP@?5?$FL?5?$CF?42fm?5?$FN?5@ 100375a0     visuals.obj
+ 0002:000045ac       ??_C@_0N@MFFOHPLI@?$CD?$CDBackground@ 100375ac     imgui.obj
+ 0002:000045bc       ??_C@_0N@MFHPHIIJ@?$CD?$CDForeground@ 100375bc     imgui.obj
+ 0002:000045cc       ??_C@_0O@HCOAADPE@imgui_log?4txt@ 100375cc     imgui.obj
+ 0002:000045dc       ??_C@_05EJCOBEBF@?$CDMOVE@ 100375dc     imgui.obj
+ 0002:000045e4       ??_C@_0P@IMLDNMEK@Debug?$CD?$CDDefault@ 100375e4     imgui.obj
+ 0002:000045f4       ??_C@_0BC@JHPKFIGH@HoveredId?3?50x?$CF08X@ 100375f4     imgui.obj
+ 0002:00004608       ??_C@_0BM@IIPBLKLJ@Press?5ESC?5to?5abort?5picking?4@ 10037608     imgui.obj
+ 0002:00004624       ??_C@_0BM@OPIPEIJO@Click?5to?5break?5in?5debugger?$CB@ 10037624     imgui.obj
+ 0002:00004640       ??_C@_06BKKJGDHO@Window@   10037640     imgui.obj
+ 0002:00004648       ??_C@_03KHICJKCI@?4?4?4@   10037648     imgui.obj
+ 0002:0000464c       ??_C@_0L@BDFLDJGI@?$CFs?1?$CFs_?$CF08X@ 1003764c     imgui.obj
+ 0002:00004658       ??_C@_07HDHBJEOI@?$CDRESIZE@ 10037658     imgui.obj
+ 0002:00004660       ??_C@_09BJOGEADB@?$CDCOLLAPSE@ 10037660     imgui.obj
+ 0002:0000466c       ??_C@_0P@DHLMFJKK@?$CD?$CDTooltip_?$CF02d@ 1003766c     imgui.obj
+ 0002:0000467c       ??_C@_07NPLNEKJH@?$CIPopup?$CJ@ 1003767c     imgui.obj
+ 0002:00004684       ??_C@_0O@BKOLOJFE@?$CD?$CDMainMenuBar@ 10037684     imgui.obj
+ 0002:00004694       ??_C@_0BA@KDPNEDEH@?$CIMain?5menu?5bar?$CJ@ 10037694     imgui.obj
+ 0002:000046a4       ??_C@_0L@JOJOIPFK@?$CIUntitled?$CJ@ 100376a4     imgui.obj
+ 0002:000046b0       ??_C@_0BE@EBHFKNCA@?$CD?$CD?$CDNavWindowingList@ 100376b0     imgui.obj
+ 0002:000046c4       ??_C@_09FDEMHCFC@?$AN?6?$CF?$CKs?$CF?4?$CKs@ 100376c4     imgui.obj
+ 0002:000046d0       ??_C@_07LFDEMEGD@?$CF?$CKs?$CF?4?$CKs@ 100376d0     imgui.obj
+ 0002:000046d8       ??_C@_05DBJFMKBA@?5?$CF?4?$CKs@ 100376d8     imgui.obj
+ 0002:000046e0       ??_C@_02PCIJFNDE@?$AN?6@   100376e0     imgui.obj
+ 0002:000046e4       ??_C@_03OIJOKPOL@?$CD?$CD?$CD@ 100376e4     imgui.obj
+ 0002:000046e8       ??_C@_02JDPG@rb@           100376e8     imgui.obj
+ 0002:000046ec       ??_C@_02BKFDOEMK@wt@       100376ec     imgui.obj
+ 0002:000046f0       ??_C@_09GOMOMIIP@Pos?$DN?$CFi?0?$CFi@ 100376f0     imgui.obj
+ 0002:000046fc       ??_C@_0L@MPPKDMFA@Size?$DN?$CFi?0?$CFi@ 100376fc     imgui.obj
+ 0002:00004708       ??_C@_0N@IAKNMBB@Collapsed?$DN?$CFd@ 10037708     imgui.obj
+ 0002:00004718       ??_C@_09HNFDDBIF@?$FL?$CFs?$FN?$FL?$CFs?$FN?6@ 10037718     imgui.obj
+ 0002:00004724       ??_C@_0L@DDMADIHO@Pos?$DN?$CFd?0?$CFd?6@ 10037724     imgui.obj
+ 0002:00004730       ??_C@_0M@CFANMDMP@Size?$DN?$CFd?0?$CFd?6@ 10037730     imgui.obj
+ 0002:0000473c       ??_C@_0O@JAFHMCKE@Collapsed?$DN?$CFd?6@ 1003773c     imgui.obj
+ 0002:0000474c       ??_C@_01NBENCBCI@?$CK@     1003774c     imgui.obj
+ 0002:0000474e       ??_C@_00CNPNBAHC@@         1003774e     imgui.obj
+ 0002:00004750       ??_C@_02GMHACPFF@?$CFu@    10037750     imgui_demo.obj
+ 0002:00004754       ??_C@_05LLAMLEHD@?$CFI64d@ 10037754     imgui_demo.obj
+ 0002:0000475c       ??_C@_02NJPGOMH@?$CFf@     1003775c     imgui_demo.obj
+ 0002:00004760       ??_C@_04EICJPCEA@cmap@     10037760     imgui_draw.obj
+ 0002:00004768       ??_C@_04DACNFKGE@loca@     10037768     imgui_draw.obj
+ 0002:00004770       ??_C@_04NEODDMOL@head@     10037770     imgui_draw.obj
+ 0002:00004778       ??_C@_04LLIHEPK@glyf@      10037778     imgui_draw.obj
+ 0002:00004780       ??_C@_04FMPHLIKP@hhea@     10037780     imgui_draw.obj
+ 0002:00004788       ??_C@_04ONMNCIMC@hmtx@     10037788     imgui_draw.obj
+ 0002:00004790       ??_C@_04HHMMLDJI@kern@     10037790     imgui_draw.obj
+ 0002:00004798       ??_C@_04PCFDEHHD@GPOS@     10037798     imgui_draw.obj
+ 0002:000047a0       ??_C@_04HJGCPIEK@CFF?5@    100377a0     imgui_draw.obj
+ 0002:000047a8       ??_C@_04KODIGLGG@maxp@     100377a8     imgui_draw.obj
+ 0002:000047b0       ??_C@_0BG@CONABPA@ProggyClean?4ttf?0?5?$CFdpx@ 100377b0     imgui_draw.obj
+ 0002:000047c8       ??_C@_0L@EPCGLJHG@?$CFs?0?5?$CF?40fpx@ 100377c8     imgui_draw.obj
+ 0002:000047dc       ??_C@_0BD@BJOEHOL@imgui_impl_opengl2@ 100377dc     imgui_impl_opengl2.obj
+ 0002:000047f0       ??_C@_0BB@FLGJPPJK@imgui_impl_win32@ 100377f0     imgui_impl_win32.obj
+ 0002:00004804       ??_C@_08ENAFOMOP@?$CDSCROLLX@ 10037804     imgui_widgets.obj
+ 0002:00004810       ??_C@_08FEBONNKO@?$CDSCROLLY@ 10037810     imgui_widgets.obj
+ 0002:0000481c       ??_C@_03JHEALCLB@?$FLx?$FN@ 1003781c     imgui_widgets.obj
+ 0002:00004820       ??_C@_03PFOPMNLJ@?$FL?5?$FN@ 10037820     imgui_widgets.obj
+ 0002:00004824       ??_C@_02LLHJFGPH@?5?$HM@   10037824     imgui_widgets.obj
+ 0002:00004828       ??_C@_0CB@GNHPAIID@?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9@ 10037828     imgui_widgets.obj
+ 0002:0000484c       ??_C@_0N@JOGGDHMO@?$CD?$CDCombo_?$CF02d@ 1003784c     imgui_widgets.obj
+ 0002:0000485c       ??_C@_02HJNLAKPP@S8@       1003785c     imgui_widgets.obj
+ 0002:00004860       ??_C@_02HNFGHGEN@U8@       10037860     imgui_widgets.obj
+ 0002:00004864       ??_C@_03KLLGJOHN@S16@      10037864     imgui_widgets.obj
+ 0002:00004868       ??_C@_03IONNMBKB@U16@      10037868     imgui_widgets.obj
+ 0002:0000486c       ??_C@_03MMFOIPBH@S32@      1003786c     imgui_widgets.obj
+ 0002:00004870       ??_C@_03OJDFNAML@U32@      10037870     imgui_widgets.obj
+ 0002:00004874       ??_C@_03JMMPOKHK@S64@      10037874     imgui_widgets.obj
+ 0002:00004878       ??_C@_03LJKELFKG@U64@      10037878     imgui_widgets.obj
+ 0002:0000487c       ??_C@_05OINFJHGD@?$CFI64u@ 1003787c     imgui_widgets.obj
+ 0002:00004884       ??_C@_05KNFBNCOH@float@    10037884     imgui_widgets.obj
+ 0002:0000488c       ??_C@_06BNJCAIGJ@double@   1003788c     imgui_widgets.obj
+ 0002:00004894       ??_C@_03DLDNIBIK@?$CFlf@   10037894     imgui_widgets.obj
+ 0002:00004898       ??_C@_02HBMHNAOE@f_@       10037898     hook.obj
+ 0002:0000489c       __real@00000000            1003789c     aimbot.obj
+ 0002:000048a0       __real@3727c5ac            100378a0     imgui_draw.obj
+ 0002:000048a4       __real@37800000            100378a4     imgui_draw.obj
+ 0002:000048a8       __real@38800000            100378a8     imgui_draw.obj
+ 0002:000048ac       __real@38d1b717            100378ac     imgui_widgets.obj
+ 0002:000048b0       __real@3d23d70a            100378b0     imgui.obj
+ 0002:000048b4       __real@3d4ccccd            100378b4     imgui.obj
+ 0002:000048b8       __real@3dcccccd            100378b8     visuals.obj
+ 0002:000048bc       __real@3e19999a            100378bc     imgui.obj
+ 0002:000048c0       __real@3e4ccccd            100378c0     imgui.obj
+ 0002:000048c4       __real@3e800000            100378c4     visuals.obj
+ 0002:000048c8       __real@3e99999a            100378c8     imgui.obj
+ 0002:000048cc       __real@3eb33333            100378cc     imgui_draw.obj
+ 0002:000048d0       __real@3ecccccd            100378d0     imgui_draw.obj
+ 0002:000048d4       __real@3efae148            100378d4     imgui_draw.obj
+ 0002:000048d8       __real@3f000000            100378d8     visuals.obj
+ 0002:000048dc       __real@3f19999a            100378dc     imgui_draw.obj
+ 0002:000048e0       __real@3f266666            100378e0     imgui.obj
+ 0002:000048e4       __real@3f2b851f            100378e4     imgui.obj
+ 0002:000048e8       __real@3f333333            100378e8     imgui.obj
+ 0002:000048ec       __real@3f3851ec            100378ec     imgui.obj
+ 0002:000048f0       __real@3f400000            100378f0     imgui_draw.obj
+ 0002:000048f4       __real@3f490fdb            100378f4     imgui.obj
+ 0002:000048f8       __real@3f4ccccd            100378f8     imgui.obj
+ 0002:000048fc       __real@3f5db22d            100378fc     imgui_draw.obj
+ 0002:00004900       __real@3f733333            10037900     imgui.obj
+ 0002:00004904       __real@3f7d70a4            10037904     imgui_draw.obj
+ 0002:00004908       __real@3f800000            10037908     aimbot.obj
+ 0002:0000490c       __real@3fa00000            1003790c     imgui.obj
+ 0002:00004910       __real@3faccccd            10037910     imgui.obj
+ 0002:00004914       __real@3fc00000            10037914     imgui_widgets.obj
+ 0002:00004918       __real@3fe0000000000000    10037918     imgui_widgets.obj
+ 0002:00004920       __real@3ff3333340000000    10037920     imgui_widgets.obj
+ 0002:00004928       __real@40000000            10037928     imgui.obj
+ 0002:0000492c       __real@40200000            1003792c     imgui.obj
+ 0002:00004930       __real@4032000000000000    10037930     hooks.obj
+ 0002:00004938       __real@40400000            10037938     visuals.obj
+ 0002:0000493c       __real@40490fdb            1003793c     imgui_draw.obj
+ 0002:00004940       __real@40666666            10037940     imgui_widgets.obj
+ 0002:00004944       __real@40800000            10037944     visuals.obj
+ 0002:00004948       __real@40a00000            10037948     visuals.obj
+ 0002:0000494c       __real@40c00000            1003794c     visuals.obj
+ 0002:00004950       __real@40c90fdb            10037950     imgui_draw.obj
+ 0002:00004954       __real@41000000            10037954     imgui.obj
+ 0002:00004958       __real@41200000            10037958     imgui_widgets.obj
+ 0002:0000495c       __real@41400000            1003795c     imgui_draw.obj
+ 0002:00004960       __real@41500000            10037960     imgui_draw.obj
+ 0002:00004964       __real@41800000            10037964     imgui.obj
+ 0002:00004968       __real@41c00000            10037968     imgui.obj
+ 0002:0000496c       __real@42260000            1003796c     visuals.obj
+ 0002:00004970       __real@42652ee0            10037970     aimbot.obj
+ 0002:00004974       __real@42700000            10037974     visuals.obj
+ 0002:00004978       __real@42c80000            10037978     visuals.obj
+ 0002:0000497c       __real@42da0000            1003797c     imgui_draw.obj
+ 0002:00004980       __real@42f00000            10037980     imgui_impl_win32.obj
+ 0002:00004984       __real@43340000            10037984     aimbot.obj
+ 0002:00004988       __real@437f0000            10037988     imgui.obj
+ 0002:0000498c       __real@44160000            1003798c     imgui.obj
+ 0002:00004990       __real@44333333            10037990     imgui_draw.obj
+ 0002:00004994       __real@44480000            10037994     imgui.obj
+ 0002:00004998       __real@447a0000            10037998     imgui.obj
+ 0002:0000499c       __real@44b33333            1003799c     imgui_draw.obj
+ 0002:000049a0       __real@45333333            100379a0     imgui_draw.obj
+ 0002:000049a4       __real@46c2ac00            100379a4     imgui_impl_win32.obj
+ 0002:000049a8       __real@7f7fffff            100379a8     aimbot.obj
+ 0002:000049ac       __real@bf400000            100379ac     imgui_draw.obj
+ 0002:000049b0       __real@bf5db22d            100379b0     imgui_draw.obj
+ 0002:000049b4       __real@bf800000            100379b4     aimbot.obj
+ 0002:000049b8       __real@bfe0000000000000    100379b8     imgui_widgets.obj
+ 0002:000049c0       __real@c2c80000            100379c0     imgui_widgets.obj
+ 0002:000049c4       __real@c6c2ac00            100379c4     imgui_impl_win32.obj
+ 0002:000049c8       __real@c6c2ae00            100379c8     imgui_impl_win32.obj
+ 0002:000049cc       __real@c87a0000            100379cc     imgui.obj
+ 0002:000049d0       __real@ff7fffff            100379d0     imgui.obj
+ 0002:000049e0       __xmm@00000000000000020000000300000001 100379e0     imgui.obj
+ 0002:000049f0       __xmm@00000002000000000000000100000003 100379f0     imgui.obj
+ 0002:00004a00       __xmm@00000003000000020000000100000000 10037a00     imgui_draw.obj
+ 0002:00004a10       __xmm@00000008000000080000000800000008 10037a10     imgui_draw.obj
+ 0002:00004a20       __xmm@3e4ccccd3f4ccccd3f4ccccd3f4ccccd 10037a20     imgui_draw.obj
+ 0002:00004a30       __xmm@3e8000003f7ae1483f170a3d3e851eb8 10037a30     imgui_draw.obj
+ 0002:00004a40       __xmm@3e9eb8523f7ae1483f170a3d3e851eb8 10037a40     imgui_draw.obj
+ 0002:00004a50       __xmm@3eb333333f4ccccd3f4ccccd3f4ccccd 10037a50     imgui_draw.obj
+ 0002:00004a60       __xmm@3eb333333f7ae1483f170a3d3e851eb8 10037a60     imgui_draw.obj
+ 0002:00004a70       __xmm@3ecccccd3f7ae1483f170a3d3e851eb8 10037a70     imgui_draw.obj
+ 0002:00004a80       __xmm@3f000000000000000000000000000000 10037a80     visuals.obj
+ 0002:00004a90       __xmm@3f0000003f0000003edc28f63edc28f6 10037a90     imgui_draw.obj
+ 0002:00004aa0       __xmm@3f028f5c000000000000000000000000 10037aa0     imgui_draw.obj
+ 0002:00004ab0       __xmm@3f07ae143ca3d70a3ca3d70a3ca3d70a 10037ab0     imgui_draw.obj
+ 0002:00004ac0       __xmm@3f0a3d713ef5c28f3e947ae13e23d70a 10037ac0     imgui_draw.obj
+ 0002:00004ad0       __xmm@3f2b851f3f7ae1483f170a3d3e851eb8 10037ad0     imgui_draw.obj
+ 0002:00004ae0       __xmm@3f3333333f8000003f8000003f800000 10037ae0     imgui_draw.obj
+ 0002:00004af0       __xmm@3f47ae143f4000003ecccccd3dcccccd 10037af0     imgui_draw.obj
+ 0002:00004b00       __xmm@3f4ccccd3f7ae1483f170a3d3e851eb8 10037b00     imgui_draw.obj
+ 0002:00004b10       __xmm@3f666666000000003f8000003f800000 10037b10     imgui_draw.obj
+ 0002:00004b20       __xmm@3f70a3d73d75c28f3d75c28f3d75c28f 10037b20     imgui_draw.obj
+ 0002:00004b30       __xmm@3f70a3d73da3d70a3da3d70a3da3d70a 10037b30     imgui_draw.obj
+ 0002:00004b40       __xmm@3f7333333f7ae1483f170a3d3e851eb8 10037b40     imgui_draw.obj
+ 0002:00004b50       __xmm@3f80000000000000000000003f800000 10037b50     imgui_draw.obj
+ 0002:00004b60       __xmm@3f800000000000003f19999a3f800000 10037b60     imgui_draw.obj
+ 0002:00004b70       __xmm@3f800000000000003f3333333f666666 10037b70     imgui_draw.obj
+ 0002:00004b80       __xmm@3f8000003d23d70a3d23d70a3d23d70a 10037b80     imgui_draw.obj
+ 0002:00004b90       __xmm@3f8000003e0f5c293e0f5c293e0f5c29 10037b90     imgui_draw.obj
+ 0002:00004ba0       __xmm@3f8000003e9eb8523e9eb8523e9eb852 10037ba0     imgui_draw.obj
+ 0002:00004bb0       __xmm@3f8000003eb333333edc28f63f800000 10037bb0     imgui_draw.obj
+ 0002:00004bc0       __xmm@3f8000003ed1eb853ed1eb853ed1eb85 10037bc0     imgui_draw.obj
+ 0002:00004bd0       __xmm@3f8000003ef5c28f3e947ae13e23d70a 10037bd0     imgui_draw.obj
+ 0002:00004be0       __xmm@3f8000003f0000003f0000003f000000 10037be0     imgui_draw.obj
+ 0002:00004bf0       __xmm@3f8000003f028f5c3f028f5c3f028f5c 10037bf0     imgui_draw.obj
+ 0002:00004c00       __xmm@3f8000003f1c28f63f1c28f63f1c28f6 10037c00     imgui_draw.obj
+ 0002:00004c10       __xmm@3f8000003f4000003ecccccd3dcccccd 10037c10     imgui_draw.obj
+ 0002:00004c20       __xmm@3f8000003f6147ae3f051eb83e75c28f 10037c20     imgui_draw.obj
+ 0002:00004c30       __xmm@3f8000003f7ae1483f07ae143d75c28f 10037c30     imgui_draw.obj
+ 0002:00004c40       __xmm@3f8000003f7ae1483f170a3d3e851eb8 10037c40     imgui_draw.obj
+ 0002:00004c50       __xmm@3f8000003f8000003f8000003f800000 10037c50     imgui_draw.obj
+ 0002:00004c60       __xmm@3ff0000000000000bff0000000000000 10037c60     imgui_impl_opengl2.obj
+ 0002:00004c70       __xmm@41f00000000000000000000000000000 10037c70     visuals.obj
+ 0002:00004c80       __xmm@4600000046000000c6000000c6000000 10037c80     imgui_draw.obj
+ 0002:00004c90       __xmm@7fffffff7fffffff7fffffff7fffffff 10037c90     visuals.obj
+ 0002:00004ca0       __xmm@80000000800000008000000080000000 10037ca0     imgui_widgets.obj
+ 0002:00004cb0       __xmm@bf800000bf800000bf800000bf800000 10037cb0     imgui.obj
+ 0002:00004cc0       __xmm@ffffffffffffffffffffffffffffffff 10037cc0     imgui.obj
+ 0002:00004d00       __load_config_used         10037d00     MSVCRT:loadcfg.obj
+ 0002:00004e00       __tls_used                 10037e00     MSVCRT:tlssup.obj
+ 0002:00004e18       ___safe_se_handler_table   10037e18     <linker-defined>
+ 0002:00004e5c       ___volatile_metadata       10037e5c     <linker-defined>
+ 0002:00005198       ___rtc_iaa                 10038198     MSVCRT:initsect.obj
+ 0002:0000519c       ___rtc_izz                 1003819c     MSVCRT:initsect.obj
+ 0002:000051a0       ___rtc_taa                 100381a0     MSVCRT:initsect.obj
+ 0002:000051a4       ___rtc_tzz                 100381a4     MSVCRT:initsect.obj
+ 0002:000051a8       __tls_start                100381a8     MSVCRT:tlssup.obj
+ 0002:000051b0       __Init_thread_epoch        100381b0     MSVCRT:thread_safe_statics.obj
+ 0002:000053b8       __tls_end                  100383b8     MSVCRT:tlssup.obj
+ 0002:00005a84       __IMPORT_DESCRIPTOR_KERNEL32 10038a84     kernel32:KERNEL32.dll
+ 0002:00005a98       __IMPORT_DESCRIPTOR_USER32 10038a98     user32:USER32.dll
+ 0002:00005aac       __IMPORT_DESCRIPTOR_OPENGL32 10038aac     opengl32:OPENGL32.dll
+ 0002:00005ac0       __IMPORT_DESCRIPTOR_IMM32  10038ac0     imm32:IMM32.dll
+ 0002:00005ad4       __IMPORT_DESCRIPTOR_XINPUT1_4 10038ad4     xinput:XINPUT1_4.dll
+ 0002:00005ae8       __IMPORT_DESCRIPTOR_VCRUNTIME140 10038ae8     vcruntime:VCRUNTIME140.dll
+ 0002:00005afc       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 10038afc     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00005b10       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 10038b10     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00005b24       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 10038b24     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00005b38       __IMPORT_DESCRIPTOR_api-ms-win-crt-utility-l1-1-0 10038b38     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00005b4c       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 10038b4c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00005b60       __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0 10038b60     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00005b74       __NULL_IMPORT_DESCRIPTOR   10038b74     ntdll:ntdll.dll
+ 0003:00000000       __Init_global_epoch        1003a000     MSVCRT:thread_safe_statics.obj
+ 0003:00000004       ___scrt_native_dllmain_reason 1003a004     MSVCRT:utility.obj
+ 0003:00000010       ___isa_inverted            1003a010     MSVCRT:cpu_disp.obj
+ 0003:00000018       ___isa_enabled             1003a018     MSVCRT:cpu_disp.obj
+ 0003:00000040       ___security_cookie         1003a040     MSVCRT:gs_cookie.obj
+ 0003:00000080       ___security_cookie_complement 1003a080     MSVCRT:gs_cookie.obj
+ 0003:00000084       ___scrt_ucrt_dll_is_in_use 1003a084     MSVCRT:ucrt_stubs.obj
+ 0003:00000088       ?current_cross_hair@visuals@menu_options@globals@@3PBDB 1003a088     menu_interface.obj
+ 0003:0000008c       ?current_box@visuals@menu_options@globals@@3PBDB 1003a08c     menu_interface.obj
+ 0003:00000090       ?hde32_table@@3PAEA        1003a090     hde32.obj
+ 0003:00000444       ?white@imgui@colors@globals@@3UImVec4@@A 1003a444     cmake_pch.obj
+ 0003:00000454       ?light_blue@imgui@colors@globals@@3UImVec4@@A 1003a454     cmake_pch.obj
+ 0003:00000464       ?black@imgui@colors@globals@@3UImVec4@@A 1003a464     cmake_pch.obj
+ 0003:00000474       ?yellow@imgui@colors@globals@@3UImVec4@@A 1003a474     cmake_pch.obj
+ 0003:00000484       ?red@imgui@colors@globals@@3UImVec4@@A 1003a484     cmake_pch.obj
+ 0003:00000494       ?blue@imgui@colors@globals@@3UImVec4@@A 1003a494     cmake_pch.obj
+ 0003:000004a4       ?green@imgui@colors@globals@@3UImVec4@@A 1003a4a4     cmake_pch.obj
+ 0003:000004c0       __fltused                  1003a4c0     MSVCRT:fltused.obj
+ 0003:000004d8       ___scrt_current_native_startup_state 1003a4d8     MSVCRT:utility.obj
+ 0003:000004dc       ___scrt_native_startup_lock 1003a4dc     MSVCRT:utility.obj
+ 0003:00000500       __tls_index                1003a500     MSVCRT:tlssup.obj
+ 0003:00000504       ___avx10_version           1003a504     MSVCRT:cpu_disp.obj
+ 0003:00000508       ___isa_available           1003a508     MSVCRT:cpu_disp.obj
+ 0003:0000050c       ___favor                   1003a50c     MSVCRT:cpu_disp.obj
+ 0003:00000510       ___scrt_debugger_hook_flag 1003a510     MSVCRT:utility_desktop.obj
+ 0003:00000518       ?__type_info_root_node@@3U__type_info_node@@A 1003a518     MSVCRT:tncleanup.obj
+ 0003:0000083c       ___@@_PchSym_@00@UwvevolknvmgUxsvzghUkxUovzimLtznvLszxprmtUxfyvPmvdUylrPzxUyfrowUylrPzxOwriUivovzhvUxnzpvPkxsOlyq@4B2008FD98C1DD4 1003a83c     cmake_pch.obj
+ 0003:00000840       ?trace_line@game_vars@globals@@3IA 1003a840     aimbot.obj
+ 0003:00000844       ?aimbot@0menu_options@globals@@3_NA 1003a844     aimbot.obj
+ 0003:00000848       ?player_count@game_vars@globals@@3PAIA 1003a848     aimbot.obj
+ 0003:0000084c       ?ent@structs@@3PAUentity@1@A 1003a84c     aimbot.obj
+ 0003:00000850       ?local_player@structs@@3PAUplayer@1@A 1003a850     aimbot.obj
+ 0003:00000854       ?mouse_move@globals@@3IA   1003a854     functions.obj
+ 0003:00000858       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 1003a858     functions.obj
+ 0003:00000860       ?screen@structs@@3PAUscreen_dimensions@1@A 1003a860     functions.obj
+ 0003:00000864       ?game_base@globals@@3IA    1003a864     functions.obj
+ 0003:00000868       ?window@globals@@3PAUHWND__@@A 1003a868     hooks.obj
+ 0003:0000086c       ?run@globals@@3_NA         1003a86c     hooks.obj
+ 0003:00000870       ?org_wnd_proc@globals@@3P6GJPAUHWND__@@IIJ@ZA 1003a870     hooks.obj
+ 0003:00000874       ?is_open@menu_options@globals@@3_NA 1003a874     hooks.obj
+ 0003:00000878       ?wgl_swap_buffers@stub@@3P6A_NI@ZA 1003a878     hooks.obj
+ 0003:0000087c       ?EmptyString@ImGuiTextBuffer@@2PADA 1003a87c     imgui.obj
+ 0003:00000884       ?GImGui@@3PAUImGuiContext@@A 1003a884     imgui.obj
+ 0003:00000888       ?g_pMemoryBlocks@@3PAU_MEMORY_BLOCK@@A 1003a888     buffer.obj
+ 0003:0000088c       ?NtGetNextThread@@3P6AJPAX0KKKPAPAX@ZA 1003a88c     hook.obj
+ 0003:00000890       ?g_threadFreezeMethod@@3W4MH_THREAD_FREEZE_METHOD@@A 1003a890     hook.obj
+ 0003:00000894       ?g_hHeap@@3PAXA            1003a894     hook.obj
+ 0003:00000898       ?g_hMutex@@3PAXA           1003a898     hook.obj
+ 0003:000008d0       ?cross_hair_selected@visuals@menu_options@globals@@3W4cross_hair_type@123@A 1003a8d0     menu_interface.obj
+ 0003:000008d1       ?box_selected@visuals@menu_options@globals@@3W4box_type@123@A 1003a8d1     menu_interface.obj
+ 0003:000008d2       ?health_bar@visuals@menu_options@globals@@3_NA 1003a8d2     menu_interface.obj
+ 0003:000008d3       ?dist@visuals@menu_options@globals@@3_NA 1003a8d3     menu_interface.obj
+ 0003:000008d4       ?name@visuals@menu_options@globals@@3_NA 1003a8d4     menu_interface.obj
+ 0003:000008d8       ?snap_pos@visuals@menu_options@globals@@3HA 1003a8d8     menu_interface.obj
+ 0003:000008dc       ?snaplines@visuals@menu_options@globals@@3_NA 1003a8dc     menu_interface.obj
+ 0003:000008e0       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 1003a8e0     imgui.obj
+ 0003:000008e8       ?matrix@structs@@3PAUview_matrix@1@A 1003a8e8     functions.obj
+ 0003:000008ec       ___dyn_tls_init_callback   1003a8ec     <common>
+
+ entry point at        0001:000307f8
+
+ Static symbols
+
+ 0002:fffcd000       .idata$6                   10000000     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0002:fffcd000       .idata$6                   10000000     gdi32:GDI32.dll
+ 0002:fffcd000       .idata$6                   10000000     ntdll:ntdll.dll
+ 0002:fffcd000       .idata$6                   10000000     msvcprt:MSVCP140.dll
+ 0001:00000478       $LN17                      10001478     hooks.obj
+ 0001:00002eb8       $LN151                     10003eb8     visuals.obj
+ 0001:000041e0       ?MallocWrapper@@YAPAXIPAX@Z 100051e0 f   imgui.obj
+ 0001:00004200       ?FreeWrapper@@YAXPAX0@Z    10005200 f   imgui.obj
+ 0001:00007780       ?UpdateMouseInputs@ImGui@@YAXXZ 10008780 f   imgui.obj
+ 0001:00007af0       ?UpdateMouseWheel@ImGui@@YAXXZ 10008af0 f   imgui.obj
+ 0001:00009690       ?ChildWindowComparer@@YAHPBX0@Z 1000a690 f   imgui.obj
+ 0001:000096f0       ?AddWindowToSortBuffer@@YAXPAU?$ImVector@PAUImGuiWindow@@@@PAUImGuiWindow@@@Z 1000a6f0 f   imgui.obj
+ 0001:000097a0       ?AddDrawListToDrawData@@YAXPAU?$ImVector@PAUImDrawList@@@@PAUImDrawList@@@Z 1000a7a0 f   imgui.obj
+ 0001:00009880       ?AddWindowToDrawData@@YAXPAU?$ImVector@PAUImDrawList@@@@PAUImGuiWindow@@@Z 1000a880 f   imgui.obj
+ 0001:0000a000       ?FindHoveredWindow@@YAXXZ  1000b000 f   imgui.obj
+ 0001:0000a710       ?CreateNewWindow@@YAPAUImGuiWindow@@PBDH@Z 1000b710 f   imgui.obj
+ 0001:0000aac0       ?CalcWindowSizeAfterConstraint@@YA?AUImVec2@@PAUImGuiWindow@@U1@@Z 1000bac0 f   imgui.obj
+ 0001:0000acb0       ?CalcWindowContentSize@@YA?AUImVec2@@PAUImGuiWindow@@@Z 1000bcb0 f   imgui.obj
+ 0001:0000ad60       ?CalcWindowAutoFitSize@@YA?AUImVec2@@PAUImGuiWindow@@ABU1@@Z 1000bd60 f   imgui.obj
+ 0001:0000afb0       ?UpdateWindowManualResize@ImGui@@YA_NPAUImGuiWindow@@ABUImVec2@@PAHHQAIABUImRect@@@Z 1000bfb0 f   imgui.obj
+ 0001:0000bcd0       ?RenderWindowOuterBorders@ImGui@@YAXPAUImGuiWindow@@@Z 1000ccd0 f   imgui.obj
+ 0001:0000c2c0       ?RenderWindowDecorations@ImGui@@YAXPAUImGuiWindow@@ABUImRect@@_NHQBIM@Z 1000d2c0 f   imgui.obj
+ 0001:0000cbf0       ?RenderWindowTitleBarContents@ImGui@@YAXPAUImGuiWindow@@ABUImRect@@PBDPA_N@Z 1000dbf0 f   imgui.obj
+ 0001:00010690       ?CalcNextScrollFromScrollTargetAndClamp@@YA?AUImVec2@@PAUImGuiWindow@@@Z 10011690 f   imgui.obj
+ 0001:000117f0       ?NavScoreItem@ImGui@@YA_NPAUImGuiNavMoveResult@@UImRect@@@Z 100127f0 f   imgui.obj
+ 0001:00011cb0       ?NavProcessItem@ImGui@@YAXPAUImGuiWindow@@ABUImRect@@I@Z 10012cb0 f   imgui.obj
+ 0001:00011f80       ?NavRestoreLayer@@YAXW4ImGuiNavLayer@@@Z 10012f80 f   imgui.obj
+ 0001:000120b0       ?NavCalcPreferredRefPos@ImGui@@YA?AUImVec2@@XZ 100130b0 f   imgui.obj
+ 0001:00012360       ?NavUpdate@ImGui@@YAXXZ    10013360 f   imgui.obj
+ 0001:000132b0       ?NavUpdateMoveResult@ImGui@@YAXXZ 100142b0 f   imgui.obj
+ 0001:000134f0       ?NavUpdatePageUpPageDown@ImGui@@YAMXZ 100144f0 f   imgui.obj
+ 0001:00013830       ?NavEndFrame@ImGui@@YAXXZ  10014830 f   imgui.obj
+ 0001:00013aa0       ?FindWindowNavFocusable@@YAPAUImGuiWindow@@HHH@Z 10014aa0 f   imgui.obj
+ 0001:00013b10       ?NavUpdateWindowingHighlightWindow@@YAXH@Z 10014b10 f   imgui.obj
+ 0001:00013ba0       ?NavUpdateWindowing@ImGui@@YAXXZ 10014ba0 f   imgui.obj
+ 0001:00014220       ?NavUpdateWindowingOverlay@ImGui@@YAXXZ 10015220 f   imgui.obj
+ 0001:00014cb0       ?WindowSettingsHandler_ClearAll@@YAXPAUImGuiContext@@PAUImGuiSettingsHandler@@@Z 10015cb0 f   imgui.obj
+ 0001:00014d30       ?WindowSettingsHandler_ReadOpen@@YAPAXPAUImGuiContext@@PAUImGuiSettingsHandler@@PBD@Z 10015d30 f   imgui.obj
+ 0001:00014e00       ?WindowSettingsHandler_ReadLine@@YAXPAUImGuiContext@@PAUImGuiSettingsHandler@@PAXPBD@Z 10015e00 f   imgui.obj
+ 0001:00014eb0       ?WindowSettingsHandler_ApplyAll@@YAXPAUImGuiContext@@PAUImGuiSettingsHandler@@@Z 10015eb0 f   imgui.obj
+ 0001:00014fd0       ?WindowSettingsHandler_WriteAll@@YAXPAUImGuiContext@@PAUImGuiSettingsHandler@@PAUImGuiTextBuffer@@@Z 10015fd0 f   imgui.obj
+ 0001:00015200       ?GetClipboardTextFn_DefaultImpl@@YAPBDPAX@Z 10016200 f   imgui.obj
+ 0001:00015310       ?SetClipboardTextFn_DefaultImpl@@YAXPAXPBD@Z 10016310 f   imgui.obj
+ 0001:000153a0       ?ImeSetInputScreenPosFn_DefaultImpl@@YAXHH@Z 100163a0 f   imgui.obj
+ 0001:000165b0       _stbrp_init_target         100175b0 f   imgui_draw.obj
+ 0001:00016730       ?stbrp__skyline_find_min_y@@YAHPAUstbrp_context@@PAUstbrp_node@@HHPAH@Z 10017730 f   imgui_draw.obj
+ 0001:00016810       ?stbrp__skyline_find_best_pos@@YA?AUstbrp__findresult@@PAUstbrp_context@@HH@Z 10017810 f   imgui_draw.obj
+ 0001:00016a10       ?rect_height_compare@@YAHPBX0@Z 10017a10 f   imgui_draw.obj
+ 0001:00016a50       ?rect_original_order@@YAHPBX0@Z 10017a50 f   imgui_draw.obj
+ 0001:00016a80       _stbrp_pack_rects          10017a80 f   imgui_draw.obj
+ 0001:00016c80       ?stbtt__cff_get_index@@YA?AUstbtt__buf@@PAU1@@Z 10017c80 f   imgui_draw.obj
+ 0001:00016d70       ?stbtt__cff_int@@YAIPAUstbtt__buf@@@Z 10017d70 f   imgui_draw.obj
+ 0001:00016f10       ?stbtt__dict_get@@YA?AUstbtt__buf@@PAU1@H@Z 10017f10 f   imgui_draw.obj
+ 0001:00017060       ?stbtt__cff_index_get@@YA?AUstbtt__buf@@U1@H@Z 10018060 f   imgui_draw.obj
+ 0001:00017160       ?stbtt__find_table@@YAIPAEIPBD@Z 10018160 f   imgui_draw.obj
+ 0001:00017220       ?stbtt_GetFontOffsetForIndex_internal@@YAHPAEH@Z 10018220 f   imgui_draw.obj
+ 0001:00017360       ?stbtt__get_subrs@@YA?AUstbtt__buf@@U1@0@Z 10018360 f   imgui_draw.obj
+ 0001:000174d0       ?stbtt_InitFont_internal@@YAHPAUstbtt_fontinfo@@PAEH@Z 100184d0 f   imgui_draw.obj
+ 0001:000179c0       _stbtt_FindGlyphIndex      100189c0 f   imgui_draw.obj
+ 0001:00017d10       ?stbtt__GetGlyfOffset@@YAHPBUstbtt_fontinfo@@H@Z 10018d10 f   imgui_draw.obj
+ 0001:00017dd0       ?stbtt__close_shape@@YAHPAUstbtt_vertex@@HHHHHHHHH@Z 10018dd0 f   imgui_draw.obj
+ 0001:00017ea0       ?stbtt__GetGlyphShapeTT@@YAHPBUstbtt_fontinfo@@HPAPAUstbtt_vertex@@@Z 10018ea0 f   imgui_draw.obj
+ 0001:000188d0       ?stbtt__track_vertex@@YAXPAUstbtt__csctx@@HH@Z 100198d0 f   imgui_draw.obj
+ 0001:00018940       ?stbtt__csctx_close_shape@@YAXPAUstbtt__csctx@@@Z 10019940 f   imgui_draw.obj
+ 0001:000189b0       ?stbtt__csctx_rccurve_to@@YAXPAUstbtt__csctx@@MMMMMM@Z 100199b0 f   imgui_draw.obj
+ 0001:00018a80       ?stbtt__cid_get_glyph_subrs@@YA?AUstbtt__buf@@PBUstbtt_fontinfo@@H@Z 10019a80 f   imgui_draw.obj
+ 0001:00018c20       ?stbtt__run_charstring@@YAHPBUstbtt_fontinfo@@HPAUstbtt__csctx@@@Z 10019c20 f   imgui_draw.obj
+ 0001:00019b14       $LN334                     1001ab14     imgui_draw.obj
+ 0001:00019b64       $LN333                     1001ab64     imgui_draw.obj
+ 0001:00019b84       $LN335                     1001ab84     imgui_draw.obj
+ 0001:00019ba0       _stbtt_GetGlyphShape       1001aba0 f   imgui_draw.obj
+ 0001:00019c90       _stbtt_GetGlyphBitmapBoxSubpixel 1001ac90 f   imgui_draw.obj
+ 0001:00019f00       ?stbtt__fill_active_edges_new@@YAXPAM0HPAUstbtt__active_edge@@M@Z 1001af00 f   imgui_draw.obj
+ 0001:0001b650       ?stbtt__rasterize_sorted_edges@@YAXPAUstbtt__bitmap@@PAUstbtt__edge@@HHHHPAX@Z 1001c650 f   imgui_draw.obj
+ 0001:0001ba30       ?stbtt__sort_edges_quicksort@@YAXPAUstbtt__edge@@H@Z 1001ca30 f   imgui_draw.obj
+ 0001:0001bb90       ?stbtt__rasterize@@YAXPAUstbtt__bitmap@@PAUstbtt__point@@PAHHMMMMHHHPAX@Z 1001cb90 f   imgui_draw.obj
+ 0001:0001be70       ?stbtt__tesselate_curve@@YAHPAUstbtt__point@@PAHMMMMMMMH@Z 1001ce70 f   imgui_draw.obj
+ 0001:0001c020       ?stbtt__tesselate_cubic@@YAXPAUstbtt__point@@PAHMMMMMMMMMH@Z 1001d020 f   imgui_draw.obj
+ 0001:0001c3c0       ?stbtt_FlattenCurves@@YAPAUstbtt__point@@PAUstbtt_vertex@@HMPAPAHPAHPAX@Z 1001d3c0 f   imgui_draw.obj
+ 0001:0001c7ec       $LN88                      1001d7ec     imgui_draw.obj
+ 0001:0001c800       _stbtt_MakeGlyphBitmapSubpixel 1001d800 f   imgui_draw.obj
+ 0001:0001ca60       ?stbtt__h_prefilter@@YAXPAEHHHI@Z 1001da60 f   imgui_draw.obj
+ 0001:0001cc84       $LN62                      1001dc84     imgui_draw.obj
+ 0001:0001cca0       ?stbtt__v_prefilter@@YAXPAEHHHI@Z 1001dca0 f   imgui_draw.obj
+ 0001:0001ceb4       $LN62                      1001deb4     imgui_draw.obj
+ 0001:0001ced0       _stbtt_PackFontRangesRenderIntoRects 1001ded0 f   imgui_draw.obj
+ 0001:00023490       $LN73                      10024490     imgui_draw.obj
+ 0001:000239d0       ?stb_decompress_token@@YAPBEPBE@Z 100249d0 f   imgui_draw.obj
+ 0001:00024060       ?ImGui_ImplOpenGL2_SetupRenderState@@YAXPAUImDrawData@@HH@Z 10025060 f   imgui_impl_opengl2.obj
+ 0001:000246d0       ?ImGui_ImplWin32_UpdateMouseCursor@@YA_NXZ 100256d0 f   imgui_impl_win32.obj
+ 0001:000247dc       $LN18                      100257dc     imgui_impl_win32.obj
+ 0001:00024800       ?ImGui_ImplWin32_UpdateGamepads@@YAXXZ 10025800 f   imgui_impl_win32.obj
+ 0001:00024cc4       $LN73                      10025cc4     imgui_impl_win32.obj
+ 0001:00024cd8       $LN72                      10025cd8     imgui_impl_win32.obj
+ 0001:00024dc0       $LN75                      10025dc0     imgui_impl_win32.obj
+ 0001:00024dd8       $LN74                      10025dd8     imgui_impl_win32.obj
+ 0001:000284b0       ?STB_TEXTEDIT_LAYOUTROW@ImStb@@YAXPAUStbTexteditRow@1@PAUImGuiInputTextState@@H@Z 100294b0 f   imgui_widgets.obj
+ 0001:00028590       ?is_word_boundary_from_right@ImStb@@YAHPAUImGuiInputTextState@@H@Z 10029590 f   imgui_widgets.obj
+ 0001:00028630       ?STB_TEXTEDIT_INSERTCHARS@ImStb@@YA_NPAUImGuiInputTextState@@HPBGH@Z 10029630 f   imgui_widgets.obj
+ 0001:00028780       ?stb_text_locate_coord@ImStb@@YAHPAUImGuiInputTextState@@MM@Z 10029780 f   imgui_widgets.obj
+ 0001:000288f0       ?stb_textedit_find_charpos@ImStb@@YAXPAUStbFindState@1@PAUImGuiInputTextState@@HH@Z 100298f0 f   imgui_widgets.obj
+ 0001:00028a60       ?stb_textedit_delete@ImStb@@YAXPAUImGuiInputTextState@@PAUSTB_TexteditState@1@HH@Z 10029a60 f   imgui_widgets.obj
+ 0001:00028b20       ?stb_textedit_delete_selection@ImStb@@YAXPAUImGuiInputTextState@@PAUSTB_TexteditState@1@@Z 10029b20 f   imgui_widgets.obj
+ 0001:00028bb0       ?stb_textedit_key@ImStb@@YAXPAUImGuiInputTextState@@PAUSTB_TexteditState@1@H@Z 10029bb0 f   imgui_widgets.obj
+ 0001:00029868       $LN496                     1002a868     imgui_widgets.obj
+ 0001:000298a0       $LN497                     1002a8a0     imgui_widgets.obj
+ 0001:000298e0       ?stb_textedit_discard_undo@ImStb@@YAXPAUStbUndoState@1@@Z 1002a8e0 f   imgui_widgets.obj
+ 0001:00029990       ?stb_text_createundo@ImStb@@YAPAGPAUStbUndoState@1@HHH@Z 1002a990 f   imgui_widgets.obj
+ 0001:00029a60       ?stb_text_undo@ImStb@@YAXPAUImGuiInputTextState@@PAUSTB_TexteditState@1@@Z 1002aa60 f   imgui_widgets.obj
+ 0001:00029cd0       ?stb_text_redo@ImStb@@YAXPAUImGuiInputTextState@@PAUSTB_TexteditState@1@@Z 1002acd0 f   imgui_widgets.obj
+ 0001:00029e50       ?InputTextFilterCharacter@@YA_NPAIHP6AHPAUImGuiInputTextCallbackData@@@ZPAX@Z 1002ae50 f   imgui_widgets.obj
+ 0001:0002e470       ??$ImAtoi@H@@YAPBDPBDPAH@Z 1002f470 f   imgui_widgets.obj
+ 0001:0002f164       $LN169                     10030164     hde32.obj
+ 0001:0002f180       $LN168                     10030180     hde32.obj
+ 0001:0002f250       $LN170                     10030250     hde32.obj
+ 0001:0002f260       $LN172                     10030260     hde32.obj
+ 0001:0002f270       $LN171                     10030270     hde32.obj
+ 0001:0002f320       ?EnumerateAndSuspendThreads@@YAHPAU_FROZEN_THREADS@@@Z 10030320 f   hook.obj
+ 0001:0002f4e0       ?EnumerateAndSuspendThreadsFast@@YAHPAU_FROZEN_THREADS@@@Z 100304e0 f   hook.obj
+ 0001:0002f660       ?EnableHookLL@@YG?AW4MH_STATUS@@IHPAU_FROZEN_THREADS@@@Z 10030660 f   hook.obj
+ 0001:0002f970       ?EnableHooksLL@@YA?AW4MH_STATUS@@KPAXH@Z 10030970 f   hook.obj
+ 0001:0002fcd0       ?DisableHookChain@@YG?AW4MH_STATUS@@KPAXIP6G?AW41@IHPAU_FROZEN_THREADS@@@Z1@Z 10030cd0 f   hook.obj
+ 0001:000301e4       ?find_pe_section@@YAPAU_IMAGE_SECTION_HEADER@@QAEI@Z 100311e4 f   MSVCRT:utility.obj
+ 0001:000304ba       ?dllmain_crt_dispatch@@YGHQAUHINSTANCE__@@KQAX@Z 100314ba f   MSVCRT:dll_dllmain.obj
+ 0001:0003050d       ?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 1003150d f   MSVCRT:dll_dllmain.obj
+ 0001:00030614       ?dllmain_crt_process_detach@@YAH_N@Z 10031614 f   MSVCRT:dll_dllmain.obj
+ 0001:000306c2       ?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 100316c2 f   MSVCRT:dll_dllmain.obj
+ 0001:000307cd       ?dllmain_raw@@YGHQAUHINSTANCE__@@KQAX@Z 100317cd f   MSVCRT:dll_dllmain.obj
+ 0001:00030820       $$000000                   10031820     MSVCRT:sehprolg4.obj
+ 0001:00030cee       ___get_entropy             10031cee f   MSVCRT:gs_support.obj
+ 0001:00031030       $$000000                   10032030     MSVCRT:alloca16.obj
+ 0001:00031046       alloca_8                   10032046     MSVCRT:alloca16.obj
+ 0001:00031060       $$000000                   10032060     MSVCRT:ftol3.obj
+ 0001:0003107f       _ftol3_default             1003207f     MSVCRT:ftol3.obj
+ 0001:00031093       _ftol3_notsafe             10032093     MSVCRT:ftol3.obj
+ 0001:000310b3       _ftol3_mincheck            100320b3     MSVCRT:ftol3.obj
+ 0001:000310b9       _ftol3_NaN                 100320b9     MSVCRT:ftol3.obj
+ 0001:000310c1       _ftol3_retmin              100320c1     MSVCRT:ftol3.obj
+ 0001:000310d0       $$000000                   100320d0     MSVCRT:ftol3.obj
+ 0001:000310ea       _ltof3_default             100320ea     MSVCRT:ftol3.obj
+ 0001:000310f9       _ltof3_mt32                100320f9     MSVCRT:ftol3.obj
+ 0001:00031120       $$000000                   10032120     MSVCRT:chkstk.obj
+ 0001:00031134       cs10                       10032134     MSVCRT:chkstk.obj
+ 0001:00031142       cs20                       10032142     MSVCRT:chkstk.obj
+ 0001:000311a0       __unwindfunclet$?wgl_swap_buffers@opengl@hooks@@YA_NI@Z$0 100321a0 f   hooks.obj
+ 0001:000311b3       __ehhandler$?wgl_swap_buffers@opengl@hooks@@YA_NI@Z 100321b3 f   hooks.obj
+ 0001:000311c0       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$0 100321c0 f   imgui.obj
+ 0001:000311cb       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$1 100321cb f   imgui.obj
+ 0001:000311d9       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$2 100321d9 f   imgui.obj
+ 0001:000311e7       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$3 100321e7 f   imgui.obj
+ 0001:000311f5       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$4 100321f5 f   imgui.obj
+ 0001:00031203       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$5 10032203 f   imgui.obj
+ 0001:00031211       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$6 10032211 f   imgui.obj
+ 0001:0003121f       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$7 1003221f f   imgui.obj
+ 0001:0003122d       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$8 1003222d f   imgui.obj
+ 0001:0003123b       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$9 1003223b f   imgui.obj
+ 0001:00031249       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$10 10032249 f   imgui.obj
+ 0001:00031257       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$11 10032257 f   imgui.obj
+ 0001:00031265       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$12 10032265 f   imgui.obj
+ 0001:00031273       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$13 10032273 f   imgui.obj
+ 0001:00031281       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$14 10032281 f   imgui.obj
+ 0001:0003128f       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$15 1003228f f   imgui.obj
+ 0001:0003129d       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$16 1003229d f   imgui.obj
+ 0001:000312ab       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$17 100322ab f   imgui.obj
+ 0001:000312b9       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$18 100322b9 f   imgui.obj
+ 0001:000312c7       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$19 100322c7 f   imgui.obj
+ 0001:000312d5       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$20 100322d5 f   imgui.obj
+ 0001:000312e3       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$21 100322e3 f   imgui.obj
+ 0001:000312f1       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$22 100322f1 f   imgui.obj
+ 0001:000312ff       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$23 100322ff f   imgui.obj
+ 0001:0003130d       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$24 1003230d f   imgui.obj
+ 0001:0003131b       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$25 1003231b f   imgui.obj
+ 0001:00031329       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$26 10032329 f   imgui.obj
+ 0001:00031337       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$27 10032337 f   imgui.obj
+ 0001:00031345       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$29 10032345 f   imgui.obj
+ 0001:00031350       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$30 10032350 f   imgui.obj
+ 0001:0003135b       __unwindfunclet$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z$31 1003235b f   imgui.obj
+ 0001:0003136b       __ehhandler$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z 1003236b f   imgui.obj
+ 0001:00031380       __ehhandler$??1?$ImChunkStream@UImGuiWindowSettings@@@@QAE@XZ 10032380 f   imgui.obj
+ 0001:00031380       __ehhandler$??1ImGuiIO@@QAE@XZ 10032380 f   imgui.obj
+ 0001:00031380       __ehhandler$??1ImGuiStorage@@QAE@XZ 10032380 f   imgui.obj
+ 0001:00031380       __ehhandler$??1ImGuiTextBuffer@@QAE@XZ 10032380 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@D@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@E@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@G@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@I@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@PAUImDrawList@@@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@PAUImFont@@@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@PAUImGuiWindow@@@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@UImGuiColorMod@@@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@UImGuiColumns@@@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@UImGuiPopupData@@@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@UImGuiPtrOrIndex@@@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@UImGuiSettingsHandler@@@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@UImGuiShrinkWidthItem@@@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@UImGuiStyleMod@@@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1ImDrawDataBuilder@@QAE@XZ 10032390 f   imgui.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@UImFontAtlasCustomRect@@@@QAE@XZ 10032390 f   imgui_draw.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@UImFontBuildDstData@@@@QAE@XZ 10032390 f   imgui_draw.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@UImFontBuildSrcData@@@@QAE@XZ 10032390 f   imgui_draw.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@UImFontConfig@@@@QAE@XZ 10032390 f   imgui_draw.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@Ustbrp_rect@@@@QAE@XZ 10032390 f   imgui_draw.obj
+ 0001:00031390       __ehhandler$??1?$ImVector@Ustbtt_packedchar@@@@QAE@XZ 10032390 f   imgui_draw.obj
+ 0001:000313a0       __ehhandler$??1ImGuiInputTextState@@QAE@XZ 100323a0 f   imgui.obj
+ 0001:000313a0       __ehhandler$??1ImFont@@QAE@XZ 100323a0 f   imgui_draw.obj
+ 0001:000313a0       __ehhandler$??1ImFontAtlas@@QAE@XZ 100323a0 f   imgui_draw.obj
+ 0001:000313b0       __unwindfunclet$?ImFileOpen@@YAPAU_iobuf@@PBD0@Z$0 100323b0 f   imgui.obj
+ 0001:000313bd       __ehhandler$?ImFileOpen@@YAPAU_iobuf@@PBD0@Z 100323bd f   imgui.obj
+ 0001:000313d0       __unwindfunclet$??0ImGuiWindow@@QAE@PAUImGuiContext@@PBD@Z$0 100323d0 f   imgui.obj
+ 0001:000313de       __unwindfunclet$??0ImGuiWindow@@QAE@PAUImGuiContext@@PBD@Z$1 100323de f   imgui.obj
+ 0001:000313ec       __unwindfunclet$??0ImGuiWindow@@QAE@PAUImGuiContext@@PBD@Z$2 100323ec f   imgui.obj
+ 0001:000313fa       __unwindfunclet$??0ImGuiWindow@@QAE@PAUImGuiContext@@PBD@Z$3 100323fa f   imgui.obj
+ 0001:00031408       __unwindfunclet$??0ImGuiWindow@@QAE@PAUImGuiContext@@PBD@Z$4 10032408 f   imgui.obj
+ 0001:0003141b       __ehhandler$??0ImGuiWindow@@QAE@PAUImGuiContext@@PBD@Z 1003241b f   imgui.obj
+ 0001:00031430       __ehhandler$??1ImGuiWindowTempData@@QAE@XZ 10032430 f   imgui.obj
+ 0001:00031440       __ehhandler$??1ImGuiWindow@@QAE@XZ 10032440 f   imgui.obj
+ 0001:00031450       __unwindfunclet$?CreateNewWindow@@YAPAUImGuiWindow@@PBDH@Z$0 10032450 f   imgui.obj
+ 0001:00031463       __ehhandler$?CreateNewWindow@@YAPAUImGuiWindow@@PBDH@Z 10032463 f   imgui.obj
+ 0001:00031470       __ehhandler$?Clear@?$ImPool@UImGuiTabBar@@@@QAEXXZ 10032470 f   imgui.obj
+ 0001:00031480       __ehhandler$??1?$ImPool@UImGuiTabBar@@@@QAE@XZ 10032480 f   imgui.obj
+ 0001:00031490       __ehhandler$??1ImGuiContext@@QAE@XZ 10032490 f   imgui.obj
+ 0001:000314a0       __ehhandler$??1ImDrawList@@QAE@XZ 100324a0 f   imgui.obj
+ 0001:000314b0       __unwindfunclet$?ImFontAtlasBuildWithStbTruetype@@YA_NPAUImFontAtlas@@@Z$0 100324b0 f   imgui_draw.obj
+ 0001:000314bb       __unwindfunclet$?ImFontAtlasBuildWithStbTruetype@@YA_NPAUImFontAtlas@@@Z$1 100324bb f   imgui_draw.obj
+ 0001:000314c6       __unwindfunclet$?ImFontAtlasBuildWithStbTruetype@@YA_NPAUImFontAtlas@@@Z$2 100324c6 f   imgui_draw.obj
+ 0001:000314d1       __unwindfunclet$?ImFontAtlasBuildWithStbTruetype@@YA_NPAUImFontAtlas@@@Z$3 100324d1 f   imgui_draw.obj
+ 0001:000314dc       __unwindfunclet$?ImFontAtlasBuildWithStbTruetype@@YA_NPAUImFontAtlas@@@Z$12 100324dc f   imgui_draw.obj
+ 0001:000314ec       __ehhandler$?ImFontAtlasBuildWithStbTruetype@@YA_NPAUImFontAtlas@@@Z 100324ec f   imgui_draw.obj
+ 0001:00031500       __unwindfunclet$?InputTextEx@ImGui@@YA_NPBD0PADHABUImVec2@@HP6AHPAUImGuiInputTextCallbackData@@@ZPAX@Z$0 10032500 f   imgui_widgets.obj
+ 0001:00031510       __ehhandler$?InputTextEx@ImGui@@YA_NPBD0PADHABUImVec2@@HP6AHPAUImGuiInputTextCallbackData@@@ZPAX@Z 10032510 f   imgui_widgets.obj
+ 0002:000002c4       _GS_ExceptionPointers      100332c4     MSVCRT:gs_report.obj
+ 0002:00000538       ?crosshairs@visuals@menu_options@globals@@3V?$array@U?$pair@W4cross_hair_type@visuals@menu_options@globals@@PBD@std@@$02@std@@B 10033538     menu_interface.obj
+ 0002:00000550       ?GStyleVarInfo@@3QBUImGuiStyleVarInfo@@B 10033550     imgui.obj
+ 0002:00000664       ?STB_TEXTEDIT_NEWLINE@ImStb@@3GA 10033664     imgui_widgets.obj
+ 0002:00000668       ?GCrc32LookupTable@@3QBIB  10033668     imgui.obj
+ 0002:00000a68       ?GImAllocatorFreeFunc@@3P6AXPAX0@ZA 10033a68     imgui.obj
+ 0002:00000a6c       ?GImAllocatorAllocFunc@@3P6APAXIPAX@ZA 10033a6c     imgui.obj
+ 0002:00000a70       ?proggy_clean_ttf_compressed_data_base85@@3QBDB 10033a70     imgui_draw.obj
+ 0002:00003940       ?FONT_ATLAS_DEFAULT_TEX_DATA_PIXELS@@3QBDB 10036940     imgui_draw.obj
+ 0002:000044a8       ?GDataTypeInfo@@3QBUImGuiDataTypeInfo@@B 100374a8     imgui_widgets.obj
+ 0002:000047d4       ?ranges@?1??GetGlyphRangesDefault@ImFontAtlas@@QAEPBGXZ@4QBGB 100377d4     imgui_draw.obj
+ 0002:00004cd0       _bias_low                  10037cd0     MSVCRT:ftol3.obj
+ 0002:00004ce0       _bias_high                 10037ce0     MSVCRT:ftol3.obj
+ 0002:00004cf0       _DP2to32                   10037cf0     MSVCRT:ftol3.obj
+ 0002:00004cf8       _NaN                       10037cf8     MSVCRT:ftol3.obj
+ 0002:00004cfc       _onept5                    10037cfc     MSVCRT:ftol3.obj
+ 0002:000051b8       ?buffer@?1??va@functions@@YAPBDPBDZZ@4V?$array@D$0CAA@@std@@A 100381b8     functions.obj
+ 0002:000053c0       __ehfuncinfo$?wgl_swap_buffers@opengl@hooks@@YA_NI@Z 100383c0     hooks.obj
+ 0002:000053e4       __unwindtable$?wgl_swap_buffers@opengl@hooks@@YA_NI@Z 100383e4     hooks.obj
+ 0002:000053f0       __ehfuncinfo$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z 100383f0     imgui.obj
+ 0002:00005418       __unwindtable$??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z 10038418     imgui.obj
+ 0002:00005510       __ehfuncinfo$??1?$ImChunkStream@UImGuiWindowSettings@@@@QAE@XZ 10038510     imgui.obj
+ 0002:00005510       __ehfuncinfo$??1ImGuiIO@@QAE@XZ 10038510     imgui.obj
+ 0002:00005510       __ehfuncinfo$??1ImGuiStorage@@QAE@XZ 10038510     imgui.obj
+ 0002:00005510       __ehfuncinfo$??1ImGuiTextBuffer@@QAE@XZ 10038510     imgui.obj
+ 0002:00005534       __unwindtable$??1?$ImChunkStream@UImGuiWindowSettings@@@@QAE@XZ 10038534     imgui.obj
+ 0002:00005534       __unwindtable$??1ImGuiIO@@QAE@XZ 10038534     imgui.obj
+ 0002:00005534       __unwindtable$??1ImGuiStorage@@QAE@XZ 10038534     imgui.obj
+ 0002:00005534       __unwindtable$??1ImGuiTextBuffer@@QAE@XZ 10038534     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@D@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@E@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@G@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@I@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@PAUImDrawList@@@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@PAUImFont@@@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@PAUImGuiWindow@@@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@UImGuiColorMod@@@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@UImGuiColumns@@@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@UImGuiPopupData@@@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@UImGuiPtrOrIndex@@@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@UImGuiSettingsHandler@@@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@UImGuiShrinkWidthItem@@@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@UImGuiStyleMod@@@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1ImDrawDataBuilder@@QAE@XZ 1003853c     imgui.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@UImFontAtlasCustomRect@@@@QAE@XZ 1003853c     imgui_draw.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@UImFontBuildDstData@@@@QAE@XZ 1003853c     imgui_draw.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@UImFontBuildSrcData@@@@QAE@XZ 1003853c     imgui_draw.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@UImFontConfig@@@@QAE@XZ 1003853c     imgui_draw.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@Ustbrp_rect@@@@QAE@XZ 1003853c     imgui_draw.obj
+ 0002:0000553c       __ehfuncinfo$??1?$ImVector@Ustbtt_packedchar@@@@QAE@XZ 1003853c     imgui_draw.obj
+ 0002:00005560       __ehfuncinfo$??1ImGuiInputTextState@@QAE@XZ 10038560     imgui.obj
+ 0002:00005560       __ehfuncinfo$??1ImFont@@QAE@XZ 10038560     imgui_draw.obj
+ 0002:00005560       __ehfuncinfo$??1ImFontAtlas@@QAE@XZ 10038560     imgui_draw.obj
+ 0002:00005584       __unwindtable$??1ImGuiInputTextState@@QAE@XZ 10038584     imgui.obj
+ 0002:00005584       __unwindtable$??1ImFont@@QAE@XZ 10038584     imgui_draw.obj
+ 0002:00005584       __unwindtable$??1ImFontAtlas@@QAE@XZ 10038584     imgui_draw.obj
+ 0002:0000559c       __ehfuncinfo$?ImFileOpen@@YAPAU_iobuf@@PBD0@Z 1003859c     imgui.obj
+ 0002:000055c0       __unwindtable$?ImFileOpen@@YAPAU_iobuf@@PBD0@Z 100385c0     imgui.obj
+ 0002:000055d0       __ehfuncinfo$??0ImGuiWindow@@QAE@PAUImGuiContext@@PBD@Z 100385d0     imgui.obj
+ 0002:000055f4       __unwindtable$??0ImGuiWindow@@QAE@PAUImGuiContext@@PBD@Z 100385f4     imgui.obj
+ 0002:0000561c       __ehfuncinfo$??1ImGuiWindowTempData@@QAE@XZ 1003861c     imgui.obj
+ 0002:00005640       __unwindtable$??1ImGuiWindowTempData@@QAE@XZ 10038640     imgui.obj
+ 0002:00005668       __ehfuncinfo$??1ImGuiWindow@@QAE@XZ 10038668     imgui.obj
+ 0002:0000568c       __unwindtable$??1ImGuiWindow@@QAE@XZ 1003868c     imgui.obj
+ 0002:000056bc       __ehfuncinfo$?CreateNewWindow@@YAPAUImGuiWindow@@PBDH@Z 100386bc     imgui.obj
+ 0002:000056e0       __unwindtable$?CreateNewWindow@@YAPAUImGuiWindow@@PBDH@Z 100386e0     imgui.obj
+ 0002:000056e8       __ehfuncinfo$?Clear@?$ImPool@UImGuiTabBar@@@@QAEXXZ 100386e8     imgui.obj
+ 0002:0000570c       __unwindtable$?Clear@?$ImPool@UImGuiTabBar@@@@QAEXXZ 1003870c     imgui.obj
+ 0002:0000571c       __ehfuncinfo$??1?$ImPool@UImGuiTabBar@@@@QAE@XZ 1003871c     imgui.obj
+ 0002:00005740       __unwindtable$??1?$ImPool@UImGuiTabBar@@@@QAE@XZ 10038740     imgui.obj
+ 0002:00005750       __ehfuncinfo$??1ImGuiContext@@QAE@XZ 10038750     imgui.obj
+ 0002:00005778       __unwindtable$??1ImGuiContext@@QAE@XZ 10038778     imgui.obj
+ 0002:00005858       __ehfuncinfo$??1ImDrawList@@QAE@XZ 10038858     imgui.obj
+ 0002:00005880       __unwindtable$??1ImDrawList@@QAE@XZ 10038880     imgui.obj
+ 0002:000058c0       __ehfuncinfo$?ImFontAtlasBuildWithStbTruetype@@YA_NPAUImFontAtlas@@@Z 100388c0     imgui_draw.obj
+ 0002:000058e8       __unwindtable$?ImFontAtlasBuildWithStbTruetype@@YA_NPAUImFontAtlas@@@Z 100388e8     imgui_draw.obj
+ 0002:00005968       __ehfuncinfo$?InputTextEx@ImGui@@YA_NPBD0PADHABUImVec2@@HP6AHPAUImGuiInputTextCallbackData@@@ZPAX@Z 10038968     imgui_widgets.obj
+ 0002:0000598c       __unwindtable$?InputTextEx@ImGui@@YA_NPBD0PADHABUImVec2@@HP6AHPAUImGuiInputTextCallbackData@@@ZPAX@Z 1003898c     imgui_widgets.obj
+ 0002:000059a0       __sehtable$??_L@YGXPAXIIP6EX0@Z1@Z 100389a0     MSVCRT:ehvecctr.obj
+ 0002:000059c0       __sehtable$??_M@YGXPAXIIP6EX0@Z@Z 100389c0     MSVCRT:ehvecdtr.obj
+ 0002:000059e0       __sehtable$?__ArrayUnwind@@YGXPAXIIP6EX0@Z@Z 100389e0     MSVCRT:ehvecdtr.obj
+ 0002:00005a00       __sehtable$___scrt_is_nonwritable_in_current_image 10038a00     MSVCRT:utility.obj
+ 0002:00005a20       __sehtable$?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 10038a20     MSVCRT:dll_dllmain.obj
+ 0002:00005a40       __sehtable$?dllmain_crt_process_detach@@YAH_N@Z 10038a40     MSVCRT:dll_dllmain.obj
+ 0002:00005a68       __sehtable$?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 10038a68     MSVCRT:dll_dllmain.obj
+ 0002:000060b0       .idata$6                   100390b0     kernel32:KERNEL32.dll
+ 0002:0000622a       .idata$6                   1003922a     user32:USER32.dll
+ 0002:00006408       .idata$6                   10039408     opengl32:OPENGL32.dll
+ 0002:00006454       .idata$6                   10039454     imm32:IMM32.dll
+ 0002:0000645e       .idata$6                   1003945e     xinput:XINPUT1_4.dll
+ 0002:00006516       .idata$6                   10039516     vcruntime:VCRUNTIME140.dll
+ 0002:000066b2       .idata$6                   100396b2     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000066d2       .idata$6                   100396d2     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000066f2       .idata$6                   100396f2     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00006714       .idata$6                   10039714     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00006736       .idata$6                   10039736     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00006900       .idata$6                   10039900     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0003:00000294       ?g_WantUpdateHasGamepad@@3_NA 1003a294     imgui_impl_win32.obj
+ 0003:00000298       ?resize_grip_def@@3QBUImGuiResizeGripDef@@B 1003a298     imgui.obj
+ 0003:000002f8       ?resize_border_def@@3QBUImGuiResizeBorderDef@@B 1003a2f8     imgui.obj
+ 0003:00000368       ?FONT_ATLAS_DEFAULT_TEX_CURSOR_DATA@@3QAY02$$CBUImVec2@@A 1003a368     imgui_draw.obj
+ 0003:00000440       ?g_LastMouseCursor@@3HA    1003a440     imgui_impl_win32.obj
+ 0003:000004d0       ?g_tss_cv@@3U_RTL_CONDITION_VARIABLE@@A 1003a4d0     MSVCRT:thread_safe_statics.obj
+ 0003:000004d4       ?g_tss_srw@@3U_RTL_SRWLOCK@@A 1003a4d4     MSVCRT:thread_safe_statics.obj
+ 0003:000004e0       ?is_initialized_as_dll@@3_NA 1003a4e0     MSVCRT:utility.obj
+ 0003:000004e1       ?module_local_atexit_table_initialized@@3_NA 1003a4e1     MSVCRT:utility.obj
+ 0003:000004e4       ?module_local_atexit_table@@3U_onexit_table_t@@A 1003a4e4     MSVCRT:utility.obj
+ 0003:000004f0       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 1003a4f0     MSVCRT:utility.obj
+ 0003:000004fc       ?__proc_attached@@3HA      1003a4fc     MSVCRT:dll_dllmain.obj
+ 0003:00000520       _GS_ExceptionRecord        1003a520     MSVCRT:gs_report.obj
+ 0003:00000570       _GS_ContextRecord          1003a570     MSVCRT:gs_report.obj
+ 0003:00000880       ?GImAllocatorUserData@@3PAXA 1003a880     imgui.obj
+ 0003:0000089c       ?stb__barrier_out_e@@3PAEA 1003a89c     imgui_draw.obj
+ 0003:000008a0       ?stb__barrier_out_b@@3PAEA 1003a8a0     imgui_draw.obj
+ 0003:000008a4       ?stb__barrier_in_b@@3PBEB  1003a8a4     imgui_draw.obj
+ 0003:000008a8       ?stb__dout@@3PAEA          1003a8a8     imgui_draw.obj
+ 0003:000008ac       ?g_hWnd@@3PAUHWND__@@A     1003a8ac     imgui_impl_win32.obj
+ 0003:000008b0       ?g_Time@@3_JA              1003a8b0     imgui_impl_win32.obj
+ 0003:000008b8       ?g_TicksPerSecond@@3_JA    1003a8b8     imgui_impl_win32.obj
+ 0003:000008c0       ?g_HasGamepad@@3_NA        1003a8c0     imgui_impl_win32.obj
+ 0003:000008c4       ?g_hooks@@3U<unnamed-type-g_hooks>@@A 1003a8c4     hook.obj
+ 0004:00000060       $R000000                   1003b060     * linker generated manifest res *

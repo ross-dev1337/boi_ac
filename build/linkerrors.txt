@@ -1,0 +1,8 @@
+================================================================================
+Linker Errors
+Generated: 2026-10-18T14:48:45.368Z
+Total Errors: 1
+================================================================================
+
+[LNK1104] (MSVC)
+cannot open file 'C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\bin\Release\boi_ac.dll' [C:\Development\cheats\PC\Learn Game Hacking\cube_new\boi_ac\build\boi_ac.vcxproj]
