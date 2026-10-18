@@ -1,7 +1,7 @@
 #pragma once
 #pragma comment(lib, "opengl32.lib")
 
-
+ 
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
