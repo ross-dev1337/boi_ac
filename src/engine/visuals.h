@@ -1,5 +1,5 @@
 #pragma once
-
+ 
 namespace visuals {
     namespace opengl {
         void draw_rect(float x, float y, float width, float height, ImVec4 color);
