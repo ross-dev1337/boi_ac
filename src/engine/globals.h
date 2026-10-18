@@ -1,5 +1,5 @@
 #pragma once
-
+ 
 namespace globals {
     inline HWND window = 0;
     inline uint32_t game_base = 0;
