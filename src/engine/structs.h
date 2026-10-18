@@ -1,5 +1,5 @@
 #pragma once
-
+ 
 template <typename T, typename... Args>
 static T call(std::uintptr_t address, Args... args) {
 	auto fn = reinterpret_cast<T (*)(Args...)>(address);
