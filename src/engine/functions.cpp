@@ -1,5 +1,5 @@
 #include "dll_main.h"
-
+ 
 void functions::rebase() {
     const auto module = GetModuleHandle(nullptr);
 

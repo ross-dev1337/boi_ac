@@ -1,5 +1,5 @@
 #pragma once
-
+ 
 namespace functions {
     void rebase();
     void update_pointers();
